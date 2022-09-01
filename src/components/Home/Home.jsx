@@ -20,7 +20,7 @@ export default function Home() {
                                 <h1 className='my-name-background'>Software<br />Engineer</h1>
                             </div>
                         </div>
-                        <div className="profile-card-text-blurb">A second-year student at Columbia University majoring in computer science.</div>
+                        <div className="profile-card-text-blurb">A second-year student at Columbia University's School of Engineering and Applied Sciences majoring in computer science.</div>
                     </div>
                 </div>
             </div>

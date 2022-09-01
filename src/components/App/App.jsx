@@ -4,6 +4,7 @@ import NotFound from '../NotFound/NotFound';
 import { Route, Routes } from 'react-router';
 import './App.css';
 import Home from '../Home/Home';
+import Footer from '../Footer/Footer';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

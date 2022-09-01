@@ -5,6 +5,7 @@
 
 * {
   font: websiteFont;
+  margin: 0px;
 }
 
 img {
@@ -15,4 +16,12 @@ img {
 body {
   background-color: #faf9f6;
   min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+a:link {
+  text-decoration: none;
 }

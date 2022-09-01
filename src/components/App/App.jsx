@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router';
 import './App.css';
 import Home from '../Home/Home';
 import Footer from '../Footer/Footer';
+import Experience from "../Experience/Experience"
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

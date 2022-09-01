@@ -1,6 +1,7 @@
 .footer {
     background-color: #0e1111;
-    box-shadow: 0 50vh 0 50vh #000;
+    margin-top: auto;
+    padding-bottom: 20px;
 }
 
 .footer h1 {

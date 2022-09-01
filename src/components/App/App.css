@@ -25,3 +25,9 @@ a {
 a:link {
   text-decoration: none;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

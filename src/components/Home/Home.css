@@ -1,0 +1,14 @@
+.profile-pic-container {
+    height: 300px;
+    width: 300px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.profile-card {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}

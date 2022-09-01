@@ -1,6 +1,7 @@
 .profile-pic-container {
     height: auto;
     min-width: 50%;
+    padding: 5px;
 }
 
 .profile-pic {
@@ -25,6 +26,10 @@
     margin: 0px;
 }
 
+.my-name span {
+    color: #9966cc;
+}
+
 .profile-card {
     height: 100%;
     padding-top: 0px;
@@ -46,6 +51,11 @@
 .profile-card-text-blurb {
     padding: 10%;
     padding-top: 10px;
+    font-size: 18px;
+}
+
+.hello {
+    font-size: 22px;
 }
 
 @media screen and (max-width: 680px)  {

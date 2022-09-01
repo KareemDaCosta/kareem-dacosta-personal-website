@@ -6,6 +6,14 @@
     margin: auto;
 }
 
+.not-found .not-found-link {
+    max-height: 500px;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+}
+
 .not-found {
     display: flex;
     flex-direction: column;

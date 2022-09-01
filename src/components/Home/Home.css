@@ -1,14 +1,88 @@
 .profile-pic-container {
-    height: 300px;
-    width: 300px;
+    height: auto;
+    min-width: 50%;
 }
 
 .profile-pic {
     border-radius: 50%;
+    box-shadow: 0 0 8px 8px #d9d9d9 inset;
+}
+
+.my-name-wrapper {
+    position: relative;
+}
+
+.my-name-background {
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    width: 100%;
+    opacity: 0.05;
+    font-size: 50px;
+}
+
+.my-name {
+    margin: 0px;
 }
 
 .profile-card {
+    height: 100%;
+    padding-top: 0px;
+    margin: auto;
+    max-width: 940px;
+}
+
+.profile-card-wrapper {
+    position: relative;
     display: flex;
-    margin-left: 10px;
-    margin-top: 10px;
+    align-items: center;
+}
+
+.profile-card-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-card-text-blurb {
+    padding: 10%;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 680px)  {
+    .profile-card-wrapper {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .profile-card-text {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .my-name-wrapper {
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hello {
+        background: #faf9f64D;
+        border-radius: 3px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 280px)  {
+    .profile-card-text {
+        position: relative;
+    }
 }

@@ -1,26 +1,26 @@
 .navbar {
 	display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
 	max-width: 100%;
 	padding: 20px;
 	text-align: left;
 	margin-left: 5%;
 	margin-right: 5%;
 	font-family: "Inter";
-	font-size: 1.3vw;
 	color: black;
 	align-items: center;
-	text-indent: 20px;
+    flex-flow: row wrap;
 }
 
 .navbar-button-container {
 	text-align: right;
 	display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
 }
 
 .navbar-button {
-	font-size: 1.3vw;
+	font-size: 18px;
 	color: black;
 	position: relative;
 	text-align: right;

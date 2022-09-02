@@ -1,0 +1,9 @@
+.experience {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 800px);
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  justify-content: space-around;
+  align-content: center;
+  margin-bottom: 20px;
+}

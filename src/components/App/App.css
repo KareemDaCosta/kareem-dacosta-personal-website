@@ -16,6 +16,7 @@ img {
 body {
   background-color: #faf9f6;
   min-height: 100vh;
+  font-size: 18px;
 }
 
 a {

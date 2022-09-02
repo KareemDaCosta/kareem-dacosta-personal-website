@@ -12,10 +12,11 @@ export default function Experience() {
             company: "Meta",
             logo: Meta,
             location: "Menlo Park, CA",
-            position: "Meta University Intern (10 week internship)",
-            dates: "May 2022 - August 2022",
+            position: "Meta University Intern",
+            dates: <>May 2022 -<br />August 2022</>,
             description: <>
             Underwent 3 weeks of training in HTML/CSS/JavaScript, React, and Node/Express; created a website in 6 weeks to match users with Dungeons and Dragons parties meeting their interests. <br />
+            <br />
             <span className="underline">Website Features: </span>Custom-built live and paginated chat and notifications systems created with Sockets API; a paginated, ranked, dynamically fetched party query system; background thread prefetching; responsive web design; modifiable party settings including custom images.
             <br />
             •  Built using a React frontend, a Node/Express backend, and a Parse database
@@ -24,6 +25,7 @@ export default function Experience() {
             <br />
             •  Check out the <a href="https://github.com/Dungeon-Delver" target="_blank">Github</a> and <a href="https://dungeon-delver.vercel.app/" target="_blank">Website</a>. You can also watch the demo video shown here!
             <br />
+            <br />
             <iframe width="560" height="315" src="https://www.youtube.com/embed/I1tgPDAW3fs" title="Dungeon Delver Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></>
         },
         {
@@ -31,7 +33,7 @@ export default function Experience() {
             logo: WeLoveCoding,
             location: "New York, NY",
             position: "President",
-            dates: "September 2018 - May 2021",
+            dates: <>September 2018 -<br />May 2021</>,
             description: <>Student-created and run volunteer group to teach coding to disadvantaged middle-schoolers.
             •  Ran program, taught coding in-person and online. Over 100 hours volunteered.  <br />
             •  Solo launched and implemented switch to online learning during pandemic  <br />
@@ -44,8 +46,9 @@ export default function Experience() {
             logo: MisrPublicLibrary,
             location: "Gaza, Egypt",
             position: "Coding Videos Creator",
-            dates: "June 2020 - August 2020",
+            dates: <>June 2020 -<br />August 2020</>,
             description: <>Created introductory coding videos for the Misr Public Library (Egypt Public Library System) for primary-school kids. Watch the first video here!
+            <br />
             <br />
             <iframe width="560" height="315" src="https://www.youtube.com/embed/M6KEIyWdY9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </>

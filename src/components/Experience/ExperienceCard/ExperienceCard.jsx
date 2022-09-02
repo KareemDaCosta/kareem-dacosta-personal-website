@@ -6,19 +6,19 @@ export default function ExperienceCard({experience}) {
             <img className="experience-logo" src={experience.logo} alt={experience.company}/>
         </div>
         <div className="experience-company">
-            {experience.company}
+            <span>{experience.company}</span>
         </div>
         <div className="experience-location">
-            {experience.location}
+            <span>{experience.location}</span>
         </div>
         <div className="experience-position">
-            {experience.position}
+            <span>{experience.position}</span>
         </div>
         <div className="experience-dates">
-            {experience.dates}
+            <span>{experience.dates}</span>
         </div>
         <div className="experience-description">
-            {experience.description}
+            <span>{experience.description}</span>
         </div>
     </div>
 }

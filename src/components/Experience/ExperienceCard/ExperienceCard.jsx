@@ -8,14 +8,14 @@ export default function ExperienceCard({experience}) {
         <div className="experience-company">
             <span>{experience.company}</span>
         </div>
-        <div className="experience-location">
-            <span>{experience.location}</span>
-        </div>
         <div className="experience-position">
             <span>{experience.position}</span>
         </div>
         <div className="experience-dates">
             <span>{experience.dates}</span>
+        </div>
+        <div className="experience-location">
+            <span>{experience.location}</span>
         </div>
         <div className="experience-map">
             {experience.map}

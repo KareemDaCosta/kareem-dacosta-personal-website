@@ -14,6 +14,9 @@ export default function TypingEffect() {
     const triggeredText = useRef(false)
 
     function type() {
+        if(cursorRef.current==null) {
+            return;
+        }
         if (charIndex < textArray[textArrayIndex].length) {
             if(!cursorRef.current.classList.contains("typing")) cursorRef.current.classList.add("typing");
             typedTextRef.current.textContent += textArray[textArrayIndex].charAt(charIndex);
@@ -27,6 +30,9 @@ export default function TypingEffect() {
     }
 
     function erase() {
+        if(cursorRef.current==null) {
+            return;
+        }
         if (charIndex > 0) {
         if(!cursorRef.current.classList.contains("typing")) cursorRef.current.classList.add("typing");
         typedTextRef.current.textContent = textArray[textArrayIndex].substring(0, charIndex-1);

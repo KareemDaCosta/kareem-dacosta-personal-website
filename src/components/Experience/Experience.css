@@ -3,7 +3,17 @@
   grid-template-columns: repeat(auto-fit, 800px);
   grid-template-rows: 1fr;
   grid-gap: 20px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-content: center;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px)  {
+  .experience {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px;
+    width: calc (100% - 40px);
+  }
+
 }

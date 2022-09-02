@@ -22,7 +22,7 @@ export default function Footer() {
                     <img src={gmail} alt="email" />
                 </a></div>
                 <Link to="/files/resume.pdf" target="_blank" download className="resume-link">
-                    <div class="download-resume-button">
+                    <div className="download-resume-button">
                         <span className="download-arrow">⤓</span> <span className="download-resume-text">Resume</span>
                     </div>
                 </Link>

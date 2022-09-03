@@ -6,6 +6,9 @@
     grid-template-columns: 80px 120px minmax(0, 1fr) minmax(0, 1fr) 200px;
     grid-template-rows: 80px 200px 1fr;
     grid-gap: 10px;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .experience-logo-container {

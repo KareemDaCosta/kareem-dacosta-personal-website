@@ -33,3 +33,27 @@
     color: black;
     text-decoration: none;
 }
+@media screen and (max-width: 560px)  {
+	.navbar-button-container {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 100px 100px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 460px)  {
+	.navbar-button-container {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 330px)  {
+	.navbar-button-container {
+		flex-flow: column wrap;
+	}
+
+	.navbar-button {
+		text-align: left;
+	}
+}

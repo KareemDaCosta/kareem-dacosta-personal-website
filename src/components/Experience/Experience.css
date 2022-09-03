@@ -1,10 +1,8 @@
 .experience {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 800px);
-  grid-template-rows: 1fr;
-  grid-gap: 20px;
-  justify-content: space-evenly;
+  display: flex;
+  flex-flow: column wrap;
   align-content: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 

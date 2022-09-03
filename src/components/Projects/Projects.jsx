@@ -1,6 +1,11 @@
 import "./Projects.css"
 import ProjectCard from "./ProjectCard/ProjectCard"
+
 import dungeonDelver from "../../images/projects/dungeon-delver.png"
+import studentStore from "../../images/projects/student-store.png"
+import flixster from "../../images/projects/flixter.png"
+import projectSilo from "../../images/projects/project-silo.png"
+import moniac from "../../images/projects/moniac.png"
 
 export default function Projects() {
 
@@ -9,9 +14,10 @@ export default function Projects() {
             image: dungeonDelver,
             name: "Dungeon Delver",
             date: "June 2022 - August 2022",
+            specs: "React Frontend • Node/Express Backend • Parse Database",
             description: <>
             <h2>Premise</h2>
-            <div>I really enjoy playing the game Dungeons and Dragons, but one of the main blocks to playing the game is finding other people to play it with since it takes at least 4 people (ideally 5-6). Thats how I got the idea for Dungeon Delver, a website with the goal of bridging that gap and allowing people to focus on what really matters: playing the game!</div>
+            <div>I really enjoy playing the game Dungeons and Dragons, but one of the main blocks to playing the game is finding other people to play it with since it takes at least 4 people (ideally 5-6). Thats how I got the idea for Dungeon Delver, a website with the goal of bridging that gap and allowing people to focus on what really matters: playing the game! I created the project from scratch over the course of 6 weeks</div>
             <h2>Links</h2>
             <div>Make sure to check out the <a href="https://github.com/Dungeon-Delver" target="_blank">Github</a> and <a href="https://dungeon-delver.vercel.app/" target="_blank">Website</a></div>
             <h2>Features</h2>
@@ -24,13 +30,57 @@ export default function Projects() {
             <div>The website also has a live notification system. Notifications are triggered by the following events: party join request, accept party join request, reject party join request, party leave and party deletion. Notifications are fully live and paginated.</div>
             
             <h2>Specifications</h2>
-            <div>The frontend was built in react and the backend has a node/express server and a sockets API server for live notifications and chat. The backend connects to a database that uses Parse.</div>
+            <div>The frontend was built in React and the backend has a Node/Express server and a Sockets API server for live notifications and chat. The backend connects to a database that uses Parse.</div>
             
             <h2>Demo</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/I1tgPDAW3fs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></>
         },
         {
+            image: studentStore,
+            name: "Student Store",
+            date: "May 2022 - June 2022",
+            specs: "React Frontend • Node/Express Backend",
+            description: <>
+            <div>Sample student store for a university. My first project built in React!</div>
 
+            <div> Feel free to check out the <a href="https://github.com/KareemDaCosta/Student-Store" target="_blank">Github</a> or <a href="https://student-store-ui.vercel.app/" target="_blank">Website</a>.</div>
+            </>
+        },
+        {
+            image: flixster,
+            name: "Flixster",
+            date: "May 2022",
+            specs: "HTML/CSS/JS",
+            description: <>
+                <div>Movie finding website using TheMovieDB. Has searching, pagination, and an overlay that appears when a movei is pressed. My first independently built website.</div>
+
+                <div>If you're interested, you may check out the <a href="https://github.com/KareemDaCosta/Flixster" target="_blank">Github</a></div>
+            </>
+        },
+        {
+            image: projectSilo,
+            name: "Project Silo",
+            date: "September 2021",
+            specs: "HTML/CSS/JS",
+            description: <>
+                <div>Hackathon project created for HackMIT. Collaborated with a four-person team to code a website that encourages electronic recycling.</div>
+                <div>
+                •  Used JavaScript to parse two .CSV files, one containing the percent composition of the elements in sample devices and the other containing a description of the elements<br />
+                •  Used the Google Charts API to present the elemental compositions and embed hyperlinks into the pie chart that go to the element's section on the page<br />
+                •  Used JavaScript to dynamically create write ups for the different elements depending on what was present in the device in a way that is easily scalable: more sample devices can be added through the simple modification of one line of code<br />
+                </div>
+
+                <div>Feel free to check out the <a href="https://github.com/Cyno00/Project-Silo" target="_blank">Github</a> or <a href="https://silo.vercel.app/" target="_blank">Website</a>.</div>
+            </>
+        },
+        {
+            image: moniac,
+            name: "Moniac Anylogic Model",
+            date: "August 2020",
+            specs: "Java/AnyLogic",
+            description: <>
+            <div>Coded a digital version of the <a href="https://cloud.anylogic.com/model/0c280d07-3f21-4e7f-9307-9e0fac39fa14">MONIAC macroeconomic model</a>.</div>
+            </>
         }
     ]
     return (

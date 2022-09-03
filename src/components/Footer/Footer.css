@@ -7,23 +7,28 @@
 .footer h1 {
     color: #faf9f6;
     margin: 10px;
+    margin-left: 1%;
 }
 
 .footer-text {
     color: #faf9f6;
     margin: 10px;
     font-size: 18px;
+    margin-left: 1%;
 }
 
 .footer-button-container {
     display: flex;
     flex-flow: row wrap;
+    margin-left: 1%;
 }
 
 .footer-button {
     width: 32px;
     height: 32px;
     margin: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
 }
 
 .hr {
@@ -41,6 +46,7 @@
     border-radius: 5px;
     height: 32px;
     margin: 5px;
+    margin-left: 0px;
     padding-right: 12px;
     font-size: 18px;
     display: flex;

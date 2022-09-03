@@ -19,7 +19,7 @@ export default function Experience() {
             description: <>
             Underwent 3 weeks of training in HTML/CSS/JavaScript, React, and Node/Express; created a website in 6 weeks to match users with Dungeons and Dragons parties meeting their interests. <br />
             <br />
-            <span className="underline">Website Features: </span>Custom-built live and paginated chat and notifications systems created with Sockets API; a paginated, ranked, dynamically fetched party query system; background thread prefetching; responsive web design; modifiable party settings including custom images.
+            <span className="underline">Website Features:</span> Custom-built live and paginated chat and notifications systems created with Sockets API; a paginated, ranked, dynamically fetched party query system; background thread prefetching; responsive web design; modifiable party settings including custom images.
             <br />
             •  Built using a React frontend, a Node/Express backend, and a Parse database
             <br />

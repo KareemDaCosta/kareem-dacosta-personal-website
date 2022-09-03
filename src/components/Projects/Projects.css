@@ -1,0 +1,17 @@
+.projects {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 800px)  {
+    .projects {
+      display: flex;
+      flex-flow: column wrap;
+      margin: 20px;
+      width: calc (100% - 40px);
+    }
+  
+  }

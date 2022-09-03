@@ -63,17 +63,17 @@
     line-height: 1.5;
 }
 
-.experience-description a {
+.project-description div a {
     outline: none;
     text-decoration: underline;
     color: #9966cc;
 }
 
-.experience-description a:visited {
-    color: #451079;
+.project-description a:visited {
+    color: #5f17a7;
 }
 
-.experience-description a:hover {
+.project-description a:hover {
     color: #faf9f6;
     background-color: #9966cc;
     border-radius: 3px;

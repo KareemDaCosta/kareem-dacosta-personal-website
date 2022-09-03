@@ -1,7 +1,7 @@
 import "./ExperienceCard.css"
 
 export default function ExperienceCard({experience}) {
-    return <div className="experience-card" style={{"backgroundImage": `linear-gradient(to top,#e9e8e9, #e9e8e9)`}}>
+    return <div className="experience-card" style={{"backgroundImage": `linear-gradient(to top,#faf9f6, #faf9f6)`}}>
         <div className="experience-logo-container">
             <img className="experience-logo" src={experience.logo} alt={experience.company}/>
         </div>

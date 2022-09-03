@@ -28,7 +28,7 @@ export default function Experience() {
             •  Check out the <a href="https://github.com/Dungeon-Delver" target="_blank">Github</a> and <a href="https://dungeon-delver.vercel.app/" target="_blank">Website</a>. You can also watch the demo video shown here!
             <br />
             <br />
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/I1tgPDAW3fs" title="Dungeon Delver Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/I1tgPDAW3fs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></>
         },
         {
             company: "We Love Coding",

@@ -26,8 +26,6 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    height: 80px;
-    line-height: 80px;
     grid-column: 3 / span 2;
     grid-row: 1 / span 1;
 }
@@ -41,8 +39,6 @@
 .experience-location {
     grid-column: 5 / span 1;
     grid-row: 1 / span 1;
-    height: 80px;
-    line-height: 80px;
     text-align: right;
     font-size: 20px;
 }
@@ -50,15 +46,11 @@
 .experience-dates {
     grid-column: 1 / span 2;
     grid-row: 2 / span 1;
-    height: 80px;
-    line-height: 80px;
 }
 
 .experience-position {
     grid-column: 3 / span 2;
     grid-row: 2 / span 1;
-    height: 80px;
-    line-height: 80px;
     text-align: center;
     font-size: 22px;
 }
@@ -89,7 +81,19 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 800px)  {
+@media screen and (max-width: 860px) {
+    .experience-card {
+        width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .experience-card {
+        width: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width: 700px)  {
     .experience-card {
         display: flex;
         flex-flow: column wrap;
@@ -121,6 +125,10 @@
     .experience-description iframe {
         max-width: calc(100vw - 80px);
         max-height: calc((100vw - 80px) / 560 * 315);
+    }
+
+    .experience-company, .experience-position, .experience-dates, .experience-location, .experience-description {
+        margin-top: 10px;
     }
 
 }

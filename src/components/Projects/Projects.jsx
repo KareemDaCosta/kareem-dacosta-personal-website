@@ -54,7 +54,7 @@ export default function Projects() {
             description: <>
                 <div>Movie finding website using TheMovieDB. Has searching, pagination, and an overlay that appears when a movei is pressed. My first independently built website.</div>
 
-                <div>If you're interested, you may check out the <a href="https://github.com/KareemDaCosta/Flixster" target="_blank">Github</a></div>
+                <div>If you're interested, you may check out the <a href="https://github.com/KareemDaCosta/Flixster" target="_blank">Github</a> or <a href="https://kareemdacosta.github.io/Flixster/" target="_blank" >Website</a></div>
             </>
         },
         {

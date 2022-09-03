@@ -5,7 +5,7 @@ export default function TypingEffect() {
     const cursorRef = useRef(null);
     const typedTextRef = useRef(null);
 
-    const textArray = ["Software Engineer", "Web Developer", "Student", "Volunteer CS Teacher"];
+    const textArray = ["Software Engineer", "Web Developer", "Student", "Volunteer Coding Teacher"];
     const typingDelay = 200;
     const erasingDelay = 100;
     const newTextDelay = 2000; // Delay between current and next text

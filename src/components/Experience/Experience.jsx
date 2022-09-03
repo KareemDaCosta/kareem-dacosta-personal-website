@@ -38,7 +38,7 @@ export default function Experience() {
             map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858170.131883427!2d-75.38512592065173!3d40.10186695191752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1662150859167!5m2!1sen!2sus" width="200" height="200" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>,
             position: "President",
             dates: <>September 2018 -<br />May 2021</>,
-            description: <>Student-created and run volunteer group to teach coding to disadvantaged middle-schoolers.
+            description: <>Student-created and run volunteer group to teach coding to disadvantaged middle-schoolers. <br />
             •  Ran program, taught coding in-person and online. Over 100 hours volunteered.  <br />
             •  Solo launched and implemented switch to online learning during pandemic  <br />
             •  Expanded program while online; tripled to 16 students, doubled to 13 teachers  <br />
@@ -53,7 +53,7 @@ export default function Experience() {
             map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245499.2262546495!2d30.99153293268095!3d29.2539937074593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458472a25999f97%3A0x8c0a8a446d887fe1!2sMisr%20Public%20Library!5e0!3m2!1sen!2sus!4v1662151017420!5m2!1sen!2sus" width="200" height="200" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>,
             position: "Coding Videos Creator",
             dates: <>June 2020 -<br />August 2020</>,
-            description: <>Created introductory coding videos for the Misr Public Library (Egypt Public Library System) for primary-school kids. Watch the first video here!
+            description: <>Created introductory coding videos for the Misr Public Library (Egypt Public Library System) geared towards primary-school kids. Watch the first video here!
             <br />
             <br />
             <iframe width="560" height="315" src="https://www.youtube.com/embed/M6KEIyWdY9g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

@@ -63,8 +63,8 @@ export default function Education() {
                         {columbiaRelevantCourses.map((course, i) => {
                             return (
                                 <>
+                                <div className="education-horizontal-line" />
                                 <li className="education-course education-li" key={i}>
-                                    <div className="education-horizontal-line" />
                                     <div className="education-course-title">
                                         {course.title}
                                     </div>
@@ -104,6 +104,7 @@ export default function Education() {
                         Awards Received:
                     </div>
                     <ul className="education-awards education-list">
+                        <div className="education-horizontal-line" />
                         <li className="education-award education-li">
                             James W. Stern Award (third in class ranking)
                         </li>

@@ -133,10 +133,12 @@
 
     .experience-location {
         text-align: center;
+        align-self: stretch;
     }
     .experience-dates {
         text-align: center;
     }
+
 
     .experience-map {
         margin: auto;

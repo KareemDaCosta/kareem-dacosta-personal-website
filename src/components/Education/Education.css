@@ -1,3 +1,98 @@
+.education {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.education-card {
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    grid-template-columns: 100px 4fr 3fr;
+    grid-template-rows: 100px 55px 1fr;
+    grid-gap: 10px;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
 .education-logo-wrapper {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
     width: 100px;
+    height: 100px;
+}
+
+.education-name {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 2;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.education-degree {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 2;
+}
+
+.education-degree span, .education-gpa span  {
+    font-weight: bold;
+}
+
+.education-gpa {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+    text-align: right;
+}
+
+.education-list-wrapper {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 3;
+}
+.education-horizontal-line {
+    border-top: #0e1111 1px solid ;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.education-header {
+    font-size: 24px;
+}
+
+.education-course-title {
+    font-size: 22px;
+}
+
+.education-course-date, .education-course-grade, .education-course-language {
+    margin-left: 5px;
+}
+
+.education-award {
+    margin: 3px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 860px) {
+    .education-card {
+        width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .education-card {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .education-degree {
+        text-align: center;
+    }
+
+    .education-gpa {
+        text-align: center;
+    }
 }

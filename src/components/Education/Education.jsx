@@ -4,16 +4,20 @@ import cgpsLogo from "../../images/education/CGPS.png"
 
 const columbiaRelevantCourses = [
     {
-        title: "Intro to Computing for Engineers and Applied Scientists",
-        grade: "A",
-        language: "Python",
-        date: "Summer 2019 (Dual Degree with High School)"
+        title: "Advanced Programming",
+        grade: "A+",
+        language: "C",
+        date: "Spring 2022"
     },
     {
-        title: "Essential Data Structures",
+        title: "Discrete Mathematics",
+        grade: "A+",
+        date: "Spring 2022"
+    },
+    {
+        title: "Multivariable Calculus for Engineers and Applied Scientists",
         grade: "A",
-        language: "C, C++",
-        date: "Fall 2019 (Dual Degree with High School)"
+        date: "Fall 2021"
     },
     {
         title: "Data Structures in Java",
@@ -22,20 +26,16 @@ const columbiaRelevantCourses = [
         date: "Spring 2020 (Dual Degree with High School)"
     },
     {
-        title: "Multivariable Calculus for Engineers and Applied Scientists",
+        title: "Essential Data Structures",
         grade: "A",
-        date: "Fall 2021"
+        language: "C, C++",
+        date: "Fall 2019 (Dual Degree with High School)"
     },
     {
-        title: "Advanced Programming",
-        grade: "A+",
-        language: "",
-        date: "Spring 2022"
-    },
-    {
-        title: "Discrete Mathematics",
-        grade: "A+",
-        date: "Spring 2022"
+        title: "Intro to Computing for Engineers and Applied Scientists",
+        grade: "A",
+        language: "Python",
+        date: "Summer 2019 (Dual Degree with High School)"
     }
 ]
 
@@ -49,17 +49,22 @@ export default function Education() {
                 <div className="education-name">
                     Columbia University School of Engineering and Applied Sciences
                 </div>
-                <div className="gpa">
-                    GPA: 4.1602
+                <div className="education-degree">
+                    Expected Degree: <span>Bachelors of Science (Class of 2025)</span>
                 </div>
-                <div className="education-coursework-wrapper">
-                    <div className="education-coursework-header">
-                        Relevant Coursework:
+                <div className="education-gpa">
+                    GPA: <span>4.1602</span>
+                </div>
+                <div className="education-list-wrapper">
+                    <div className="education-coursework-header education-header">
+                        Relevant Coursework
                     </div>
-                    <ul className="education-coursework">
+                    <ul className="education-coursework education-list">
                         {columbiaRelevantCourses.map((course, i) => {
                             return (
-                                <li className="education-course" key={i}>
+                                <>
+                                <li className="education-course education-li" key={i}>
+                                    <div className="education-horizontal-line" />
                                     <div className="education-course-title">
                                         {course.title}
                                     </div>
@@ -75,6 +80,7 @@ export default function Education() {
                                     </div> : 
                                     ""}
                                 </li>
+                                </>
                             )
                         })}
                     </ul>
@@ -82,7 +88,32 @@ export default function Education() {
             </div>
             <div className="education-card">
                 <div className="education-logo-wrapper">
-                    <img className="education-logo" src={cgpsLogo} alt="Columbia School of Engineering and Applied Science"/>
+                    <img className="education-logo" src={cgpsLogo} alt="Columbia Grammar and Preparatory School?\"/>
+                </div>
+                <div className="education-name">
+                    Columbia Grammar and Preparatory School
+                </div>
+                <div className="education-degree">
+                    Degree Received: <span>High School Diploma</span>
+                </div>
+                <div className="education-gpa">
+                    GPA: <span>3.98</span> (unweighted) <br /> ACT: <span>36/36</span>
+                </div>
+                <div className="education-list-wrapper">
+                    <div className="education-awards-header education-header">
+                        Awards Received:
+                    </div>
+                    <ul className="education-awards education-list">
+                        <li className="education-award education-li">
+                            James W. Stern Award (third in class ranking)
+                        </li>
+                        <li className="education-award education-li">
+                            National Merit Scholarship
+                        </li>
+                        <li className="education-award education-li">
+                            Computer Science Award
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

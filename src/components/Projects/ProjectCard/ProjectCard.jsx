@@ -16,7 +16,7 @@ export default function ProjectCard({project}) {
                 <span>{project.specs}</span>
             </div>
             <div className="project-description">
-                <div className="horizontal-line" />
+                <div className="project-horizontal-line" />
                 {project.description}
             </div>
         </div>

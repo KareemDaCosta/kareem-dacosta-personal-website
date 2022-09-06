@@ -7,20 +7,20 @@
 .footer h1 {
     color: #faf9f6;
     margin: 10px;
-    margin-left: 1%;
+    margin-left: calc(1% + 10px);
 }
 
 .footer-text {
     color: #faf9f6;
     margin: 10px;
     font-size: 18px;
-    margin-left: 1%;
+    margin-left: calc(1% + 10px)
 }
 
 .footer-button-container {
     display: flex;
     flex-flow: row wrap;
-    margin-left: 1%;
+    margin-left: calc(1% + 10px)
 }
 
 .footer-button {

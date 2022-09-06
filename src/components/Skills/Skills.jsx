@@ -15,7 +15,7 @@ export default function Skills() {
             <div className="skills-card">
                 <div className="skills-section  skills-border-vertical" id="skills-card-1">
                     <div className="skills-heading">
-                        Languages Known
+                        Languages/Frameworks Known
                     </div>
                     <ul className="skills-list">
                         {languagesKnown.map(item => {
@@ -26,7 +26,7 @@ export default function Skills() {
                 <div className="skills-border-horizontal"/>
                 <div className="skills-section" id="skills-card-2">
                     <div className="skills-heading" >
-                        Tools
+                        Tools Used
                     </div>
                     <ul className="skills-list">
                         {editorsKnown.map(item => {

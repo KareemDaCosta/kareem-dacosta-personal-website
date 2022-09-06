@@ -22,7 +22,7 @@ export default function Footer() {
                     <div className="footer-button"><a href="mailto:kareem.dacosta@columbia.edu" className="footer-button" target="_blank">
                         <img src={gmail} alt="email" />
                     </a></div>
-                    <Link to="/files/Kareem_DaCosta_Resume.pdf" target="_blank" download className="resume-link">
+                    <Link to="/files/Kareem_DaCosta_Resume.pdf" target="_blank" className="resume-link">
                         <div className="download-resume-button">
                             <span className="download-arrow">⤓</span> <span className="download-resume-text">Resume</span>
                         </div>

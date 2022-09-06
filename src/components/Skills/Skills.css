@@ -11,7 +11,7 @@
     padding: 20px;
     display: grid;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 60% 40%;
     grid-gap: 20px;
     width: 800px;
     margin-top: 20px;
@@ -47,7 +47,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 760px) {
     .skills-card {
         display: flex;
         flex-flow: column wrap;

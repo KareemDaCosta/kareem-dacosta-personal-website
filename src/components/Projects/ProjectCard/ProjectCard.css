@@ -1,3 +1,8 @@
+.project-description a {
+    outline: none;
+    color: #9966cc;
+}
+
 .project-description a:visited {
     color: #6b1eb8;
 }

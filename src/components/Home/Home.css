@@ -1,3 +1,8 @@
+.home {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .profile-pic-container {
     height: auto;
     min-width: 40%;

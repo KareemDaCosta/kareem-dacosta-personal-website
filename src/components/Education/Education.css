@@ -92,6 +92,10 @@
     margin: 30px 0px;
 }
 
+.education-award {
+    line-height: 1.5;
+}
+
 @media screen and (max-width: 860px) {
     .education-card {
         width: calc(100% - 80px);

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: home-name-font;
+    src: url(https://fonts.googleapis.com/css?family=Inter&display=swap);
+  }
+
 .home {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -29,6 +34,7 @@
 
 .my-name {
     margin: 0px;
+    font-family: home-name-font;
 }
 
 .my-name span {

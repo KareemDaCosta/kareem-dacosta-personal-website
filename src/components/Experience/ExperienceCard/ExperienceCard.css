@@ -1,6 +1,6 @@
 .experience-card {
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     display: grid;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     grid-template-columns: 80px 120px minmax(0, 1fr) minmax(0, 1fr) 200px;
@@ -112,7 +112,7 @@
 
 @media screen and (max-width: 800px) {
     .experience-card {
-        width: calc(100% - 40px);
+        width: calc(100% - 60px);
     }
 }
 
@@ -148,8 +148,8 @@
     }
     
     .experience-description iframe {
-        max-width: calc(100vw - 80px);
-        max-height: calc((100vw - 80px) / 560 * 315);
+        max-width: calc(100vw - 100px);
+        max-height: calc((100vw - 100px) / 560 * 315);
     }
 
     .experience-company, .experience-position, .experience-dates, .experience-location, .experience-description {

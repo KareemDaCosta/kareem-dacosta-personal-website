@@ -1,10 +1,4 @@
-@font-face {
-  font-family: websiteFont;
-  src: url(https://fonts.googleapis.com/css?family=Inter&display=swap);
-}
-
 * {
-  font: websiteFont;
   margin: 0px;
 }
 

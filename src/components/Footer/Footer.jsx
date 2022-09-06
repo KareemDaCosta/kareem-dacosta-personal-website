@@ -3,7 +3,7 @@ import github from "../../images/socials/github.png"
 import linkedin from "../../images/socials/linkedin.png"
 import gmail from "../../images/socials/gmail.png"
 import resume from "../../documents/Kareem DaCosta Resume.pdf"
-import { Link } from "react-router-dom";
+import resumeIcon from "../../images/icons/resume.svg"
 
 
 export default function Footer() {
@@ -25,7 +25,7 @@ export default function Footer() {
                     </a></div>
                     <a href={resume} target="_blank" className="resume-link">
                         <div className="download-resume-button">
-                            <span className="download-arrow">🗏</span> <span className="download-resume-text">Resume</span>
+                           <img className="resume-icon" src={resumeIcon} alt="" /> <span className="download-resume-text">Resume</span>
                         </div>
                     </a>
                 </div>

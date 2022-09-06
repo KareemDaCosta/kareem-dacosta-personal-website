@@ -54,16 +54,14 @@
     align-content: stretch;
 }
 
-.download-resume-button .download-arrow {
-    font-size: 20px;
+.download-resume-button .resume-icon {
     font-weight: bold;
     padding-left: 8px;
     padding-right: 8px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     background-color: #9966cc;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    width: 19px;
 }
 
 .download-resume-button .download-resume-text {

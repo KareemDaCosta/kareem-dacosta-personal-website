@@ -17,7 +17,7 @@ export default function Projects() {
             specs: "React Frontend • Node/Express Backend • Parse Database",
             description: <>
             <div>Website to help users find Dungeons and Dragons parties that meet their interests.</div>
-            <div>Features custom-built live and paginated chat and notifications systems created with Sockets API; a paginated, ranked, dynamically fetched party query system; background thread prefetching; responsive web design; custom party images; persistent login.</div>
+            <div>Features custom-built live and paginated chat and notifications systems created with Sockets API; a paginated, ranked, dynamically fetched party query system; background thread prefetching; responsive web design; custom party images; persistent login; recoil state management.</div>
             <div>Make sure to check out the <a href="https://github.com/Dungeon-Delver" target="_blank">Github</a> and <a href="https://dungeon-delver.vercel.app/" target="_blank">Website</a></div></>
         },
         {

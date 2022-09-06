@@ -15,7 +15,7 @@ export default function Skills() {
             <div className="skills-card">
                 <div className="skills-section  skills-border-vertical" id="skills-card-1">
                     <div className="skills-heading">
-                        Languages/Frameworks Known
+                        Languages/Tools Known
                     </div>
                     <ul className="skills-list">
                         {languagesKnown.map(item => {

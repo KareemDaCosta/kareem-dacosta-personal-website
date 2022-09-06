@@ -101,7 +101,7 @@ export default function Education() {
                 </div>
                 <div className="education-list-wrapper">
                     <div className="education-awards-header education-header">
-                        Awards Received:
+                        Awards Received
                     </div>
                     <ul className="education-awards education-list">
                         <div className="education-horizontal-line" />

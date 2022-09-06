@@ -8,6 +8,7 @@ import Footer from '../Footer/Footer';
 import Experience from "../Experience/Experience"
 import Projects from "../Projects/Projects"
 import Education from "../Education/Education"
+import Skills from "../Skills/Skills"
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path ="/education" element={<Education />} />
+          <Route path ="/skills" element={<Skills />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

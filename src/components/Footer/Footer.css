@@ -1,70 +1,70 @@
 .footer {
-    background-color: #0e1111;
-    margin-top: auto;
-    padding-bottom: 50px;
+  background-color: #0e1111;
+  margin-top: auto;
+  padding-bottom: 50px;
 }
 
 .footer h1 {
-    color: #faf9f6;
-    margin: 10px;
-    margin-left: calc(1% + 10px);
+  color: #faf9f6;
+  margin: 10px;
+  margin-left: calc(1% + 10px);
 }
 
 .footer-text {
-    color: #faf9f6;
-    margin: 10px;
-    font-size: 18px;
-    margin-left: calc(1% + 10px)
+  color: #faf9f6;
+  margin: 10px;
+  font-size: 18px;
+  margin-left: calc(1% + 10px);
 }
 
 .footer-button-container {
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: calc(1% + 10px)
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: calc(1% + 10px);
 }
 
 .footer-button {
-    width: 32px;
-    height: 32px;
-    margin: 5px;
-    margin-left: 0px;
-    margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 10px;
 }
 
 .hr {
-    border-top: 1px solid #faf9f6;
-    width: 98%;
-    margin: auto;
-  }
+  border-top: 1px solid #faf9f6;
+  width: 98%;
+  margin: auto;
+}
 
 .resume-link {
-    color: black;
+  color: black;
 }
 
 .download-resume-button {
-    background-color: #faf9f6;
-    border-radius: 5px;
-    height: 32px;
-    margin: 5px;
-    margin-left: 0px;
-    padding-right: 12px;
-    font-size: 18px;
-    display: flex;
-    flex-flow: row wrap;
-    align-content: stretch;
+  background-color: #faf9f6;
+  border-radius: 5px;
+  height: 32px;
+  margin: 5px;
+  margin-left: 0px;
+  padding-right: 12px;
+  font-size: 18px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: stretch;
 }
 
 .download-resume-button .resume-icon {
-    font-weight: bold;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    background-color: #9966cc;
-    width: 19px;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #9966cc;
+  width: 19px;
 }
 
 .download-resume-button .download-resume-text {
-    align-self: center;
-    padding-left: 8px;
+  align-self: center;
+  padding-left: 8px;
 }

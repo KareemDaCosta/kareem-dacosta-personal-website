@@ -1,159 +1,163 @@
 .experience-card {
-    border-radius: 10px;
-    padding: 30px;
-    display: grid;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    grid-template-columns: 80px 120px minmax(0, 1fr) minmax(0, 1fr) 200px;
-    grid-template-rows: 80px 200px 1fr;
-    grid-gap: 10px;
-    width: 800px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 30px;
+  display: grid;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  grid-template-columns: 80px 120px minmax(0, 1fr) minmax(0, 1fr) 200px;
+  grid-template-rows: 80px 200px 1fr;
+  grid-gap: 10px;
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .experience-logo-container {
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
-    border-radius: 3px;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  border-radius: 3px;
 }
 
 .experience-logo {
-    object-fit: contain;
-    border-radius: 3px;
+  object-fit: contain;
+  border-radius: 3px;
 }
 
 .experience-company {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    grid-column: 3 / span 2;
-    grid-row: 1 / span 1;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 1;
 }
 
-.experience-company span, .experience-location span, .experience-dates span, .experience-positon span {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+.experience-company span,
+.experience-location span,
+.experience-dates span,
+.experience-positon span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 .experience-location {
-    grid-column: 5 / span 1;
-    grid-row: 1 / span 1;
-    text-align: right;
-    font-size: 20px;
-    align-self: end;
-    margin-bottom: 2px;
+  grid-column: 5 / span 1;
+  grid-row: 1 / span 1;
+  text-align: right;
+  font-size: 20px;
+  align-self: end;
+  margin-bottom: 2px;
 }
 
 .experience-dates {
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 1;
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
 }
 
 .experience-position {
-    grid-column: 3 / span 2;
-    grid-row: 2 / span 1;
-    text-align: center;
-    font-size: 22px;
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+  text-align: center;
+  font-size: 22px;
 }
 
 .experience-description {
-    grid-column: 1 / span 5;
-    grid-row: 3 / span 1;
-    line-height: 1.5;
+  grid-column: 1 / span 5;
+  grid-row: 3 / span 1;
+  line-height: 1.5;
 }
 
 .experience-description a {
-    outline: none;
-    color: #9966cc;
+  outline: none;
+  color: #9966cc;
 }
 
 .experience-description a:visited {
-    color: #5f17a7;
+  color: #5f17a7;
 }
 
 .experience-description a:hover {
-    color: #faf9f6;
-    background-color: #9966cc;
-    border-radius: 3px;
+  color: #faf9f6;
+  background-color: #9966cc;
+  border-radius: 3px;
 }
 
 .experience-description a:visited:hover {
-    color: #faf9f6;
-    background-color: #5f17a7;
-    border-radius: 3px;
+  color: #faf9f6;
+  background-color: #5f17a7;
+  border-radius: 3px;
 }
 
 .experience-map {
-    grid-column: 5 / span 1;
-    grid-row: 2 / span 1;
+  grid-column: 5 / span 1;
+  grid-row: 2 / span 1;
 }
 
 .experience-map iframe {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 .experience-description iframe {
-    display: block;
-    margin: auto;
-    max-width: 100%;
+  display: block;
+  margin: auto;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 860px) {
-    .experience-card {
-        width: calc(100% - 80px);
-    }
+  .experience-card {
+    width: calc(100% - 80px);
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .experience-card {
-        width: calc(100% - 60px);
-    }
+  .experience-card {
+    width: calc(100% - 60px);
+  }
 }
 
-@media screen and (max-width: 700px)  {
-    .experience-card {
-        display: flex;
-        flex-flow: column wrap;
-        width: 100%;
-        max-width: 100%;
-    }
+@media screen and (max-width: 700px) {
+  .experience-card {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    max-width: 100%;
+  }
 
-    .experience-logo-container {
-        width: 80px;
-        height: 80px;
-        align-self: center;
-    }
+  .experience-logo-container {
+    width: 80px;
+    height: 80px;
+    align-self: center;
+  }
 
-    .experience-location {
-        text-align: center;
-        align-self: stretch;
-    }
-    .experience-dates {
-        text-align: center;
-    }
+  .experience-location {
+    text-align: center;
+    align-self: stretch;
+  }
+  .experience-dates {
+    text-align: center;
+  }
 
+  .experience-map {
+    margin: auto;
+  }
 
-    .experience-map {
-        margin: auto;
-    }
+  .experience-description span {
+    display: block;
+  }
 
-    .experience-description span {
-        display: block;
-    }
-    
-    .experience-description iframe {
-        max-width: calc(100vw - 100px);
-        max-height: calc((100vw - 100px) / 560 * 315);
-    }
+  .experience-description iframe {
+    max-width: calc(100vw - 100px);
+    max-height: calc((100vw - 100px) / 560 * 315);
+  }
 
-    .experience-company, .experience-position, .experience-dates, .experience-location, .experience-description {
-        margin-top: 10px;
-    }
-
+  .experience-company,
+  .experience-position,
+  .experience-dates,
+  .experience-location,
+  .experience-description {
+    margin-top: 10px;
+  }
 }

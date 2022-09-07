@@ -28,9 +28,19 @@
   animation: none;
 }
 @keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
 }

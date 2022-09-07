@@ -6,12 +6,11 @@
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 800px)  {
+@media screen and (max-width: 800px) {
   .experience {
     display: flex;
     flex-flow: row wrap;
     margin: 20px;
     width: calc (100% - 40px);
   }
-
 }

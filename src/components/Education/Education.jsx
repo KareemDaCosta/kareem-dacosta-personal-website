@@ -66,9 +66,9 @@ export default function Education() {
           <ul className="education-coursework education-list">
             {columbiaRelevantCourses.map((course, i) => {
               return (
-                <>
+                <div className="education-course-wrapper" key={i}>
                   <div className="education-horizontal-line" />
-                  <li className="education-course education-li" key={i}>
+                  <li className="education-course education-li">
                     <div className="education-course-title">{course.title}</div>
                     <div className="education-course-date">
                       Semester: {course.date}
@@ -84,7 +84,7 @@ export default function Education() {
                       ""
                     )}
                   </li>
-                </>
+                </div>
               );
             })}
           </ul>

@@ -7,6 +7,8 @@ import gallery4 from "../../images/gallery/gallery4.jpg"
 import gallery5 from "../../images/gallery/gallery5.jpg"
 import gallery6 from "../../images/gallery/gallery6.jpg"
 
+import GalleryImageCard from "./GalleryImageCard/GalleryImageCard"
+
 export default function ImageGallery() {
 
     const gallery = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6]
@@ -15,9 +17,7 @@ export default function ImageGallery() {
         <div className="image-gallery">
             {gallery.map( (item, i) => {
                 return (
-                    <div key={i} style = {{"margin-top": `${i*20}px`, "position": "relative", "right": `${i*20}px`, "zIndex": i}} className="gallery-image-container">
-                        <img src={item} alt={`gallery image ${i}`} />
-                    </div>
+                   <GalleryImageCard key={i} i={i} item={item} />
                 )
             }
             )}

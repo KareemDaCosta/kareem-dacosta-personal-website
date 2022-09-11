@@ -1,7 +1,4 @@
-@font-face {
-  font-family: home-name-font;
-  src: url(https://fonts.googleapis.com/css?family=Inter&display=swap);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .home {
   margin-top: 20px;

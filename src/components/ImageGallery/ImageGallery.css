@@ -9,13 +9,15 @@
 .gallery-image-container {
     width: 400px;
     height: 512px;
+    cursor: pointer;
+    perspective: 30px;
 }
 
 @media screen and (max-width: 850px) {
  .gallery-image-container {
     position: static!important;
     margin-top: 0px!important;
-    padding: 10px;
+    margin: 50px;
  }
  
  .image-gallery {

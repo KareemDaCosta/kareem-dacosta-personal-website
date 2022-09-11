@@ -3,6 +3,7 @@
     flex-flow: row wrap;
     justify-content: center;
     margin-left: 100px;
+    margin-right: 50px;
 }
 
 .gallery-image-container {
@@ -19,6 +20,7 @@
  
  .image-gallery {
     margin-left: 0px;
+    margin-right: 0px;
  }
 }
 

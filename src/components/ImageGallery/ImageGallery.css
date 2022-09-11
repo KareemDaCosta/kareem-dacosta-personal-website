@@ -1,0 +1,30 @@
+.image-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.gallery-image-container {
+    width: 400px;
+    height: 512px;
+}
+
+@media screen and (max-width: 850px) {
+ .gallery-image-container {
+    position: static!important;
+    margin-top: 0px!important;
+    padding: 10px;
+ }
+ 
+ .image-gallery {
+    margin-left: 0px;
+ }
+}
+
+@media screen and (max-width: 440px) {
+    .gallery-image-container {
+        width: 100%;
+        height: auto;
+    }
+}

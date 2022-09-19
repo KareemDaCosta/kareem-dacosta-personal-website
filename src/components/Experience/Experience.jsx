@@ -4,9 +4,77 @@ import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import Meta from "../../images/experience/Meta.png";
 import WeLoveCoding from "../../images/experience/WeLoveCoding.png";
 import MisrPublicLibrary from "../../images/experience/MisrPublicLibrary.png";
+import Columbia from "../../images/experience/Columbia.png";
+import SustainableSister from "../../images/experience/SustainableSister.png";
 
 export default function Experience() {
   const experiences = [
+    {
+      company: "Sustainable Sister",
+      logo: SustainableSister,
+      color: "#fce4ed",
+      location: "New York, NY",
+      map: (
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858170.131883427!2d-75.38512592065173!3d40.10186695191752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1662150859167!5m2!1sen!2sus"
+          width="200"
+          height="200"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+        ></iframe>
+      ),
+      position: "Lead Software Engineer",
+      dates: (
+        <>
+          September 2022 -<br />
+          Present
+        </>
+      ),
+      description: (
+        <>
+          • Develop image recognition neural network using Tensorflow for
+          personalized UX
+          <br />
+          • Create full front-end/back-end of website through react.js,
+          node.js/express.js
+          <br />
+          • Attend weekly stand-up meeting to discuss progress/problems
+          <br />• Collaborate with UX designers/marketing team to implement new
+          changes to the website
+        </>
+      ),
+    },
+    {
+      company: "Columbia University",
+      logo: Columbia,
+      color: "#2259aa",
+      location: "New York, NY",
+      map: (
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858170.131883427!2d-75.38512592065173!3d40.10186695191752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1662150859167!5m2!1sen!2sus"
+          width="200"
+          height="200"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+        ></iframe>
+      ),
+      position: "Resident Advisor",
+      dates: (
+        <>
+          August 2022 -<br />
+          Present
+        </>
+      ),
+      description: (
+        <>
+          • Dedicate 20 hours a week to connect with residents, create floor
+          programming, provide guidance, mentorship, and support
+          <br />• Supervise 42 residents from multiple special interest groups
+        </>
+      ),
+    },
     {
       company: "Meta",
       logo: Meta,
@@ -31,31 +99,33 @@ export default function Experience() {
       ),
       description: (
         <>
-          Underwent 3 weeks of training in HTML/CSS/JavaScript, React, and
-          Node/Express; created a website in 6 weeks to match users with
-          Dungeons and Dragons parties meeting their interests. <br />
-          <br />
-          <span className="underline">Website Features:</span> Custom-built live
-          and paginated chat and notifications systems created with Sockets API;
-          a paginated, ranked, dynamically fetched party query system;
-          background thread prefetching; responsive web design; custom party
-          images; persistent login; recoil state management.
-          <br />
-          • Built using a React frontend, a Node/Express backend, and a Parse
-          database
-          <br />
-          • Received rating of absolute confidence hire (highest rating); worked
-          with manager on internal SEVs due to completing website ahead of an
-          aggressively planned schedule
-          <br />• Check out the{" "}
+          • Underwent 3 weeks of training in HTML/CSS/JavaScript, React, and
+          Node/Express <br />• Created a{" "}
+          <a href="https://dungeon-delver.vercel.app/" target="_blank">
+            website
+          </a>{" "}
+          in 6 weeks using a React frontend, a Node/Express backend, and a Parse
+          database to match users with Dungeons and Dragons parties meeting
+          their interests. Code available on{" "}
           <a href="https://github.com/Dungeon-Delver" target="_blank">
             Github
           </a>{" "}
-          and{" "}
-          <a href="https://dungeon-delver.vercel.app/" target="_blank">
-            Website
-          </a>
-          . You can also watch the demo video shown here!
+          <br />
+          • Implemented custom-built live and paginated chat and notifications
+          systems created with Sockets API | a paginated, ranked, dynamically
+          fetched party query system | background thread prefetching |
+          responsive web design | custom party images | persistent login | recoil
+          state management
+          <br />
+          • Received rating of absolute confidence hire (highest rating) <br />
+          • Worked with manager on internal SEVs due to completing website ahead
+          of an aggressively planned schedule
+          <br />
+          • Shadowed Software Engineer and met with Frontend Engineers, a
+          Product Manager, Data Scientist, Data Engineer, Systems Engineer,
+          Senior Tech Lead, and Manager.
+          <br />
+          • You can watch the demo video shown here!
           <br />
           <br />
           <iframe
@@ -100,13 +170,13 @@ export default function Experience() {
           volunteered. <br />
           • Solo launched and implemented switch to online learning during
           pandemic <br />
-          • Expanded program while online; tripled to 16 students, doubled to 13
-          teachers <br />
+          • Expanded program while online | tripled to 16 students, doubled to
+          13 teachers <br />
           • Managed communications with parents and volunteering locations such
-          as community centers and middle schools; organized online classes, and
-          provided weekly updates <br />• Managed internal organization
-          including recruiting additional teachers, arranging weekly schedules,
-          and dealing with last minute changes; undertook succession planning
+          as community centers and middle schools | organized online classes, and
+          provided weekly updates <br />• Managed internal organization including
+          recruiting additional teachers, arranging weekly schedules, and
+          dealing with last minute changes | undertook succession planning
         </>
       ),
     },

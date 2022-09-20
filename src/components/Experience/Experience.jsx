@@ -90,7 +90,7 @@ export default function Experience() {
           loading="lazy"
         ></iframe>
       ),
-      position: "Meta University Intern",
+      position: "Meta University Software Engineering Intern",
       dates: (
         <>
           May 2022 -<br />

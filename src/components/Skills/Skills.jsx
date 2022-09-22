@@ -20,6 +20,7 @@ export default function Skills() {
     "Jupyter Notebook",
     "Eclipse",
     "Anylogic",
+    "Unix"
   ];
 
   return (
@@ -42,7 +43,7 @@ export default function Skills() {
         </div>
         <div className="skills-border-horizontal" />
         <div className="skills-section" id="skills-card-2">
-          <div className="skills-heading">Tools Used</div>
+          <div className="skills-heading">Environments Used</div>
           <ul className="skills-list">
             {editorsKnown.map((item) => {
               return (

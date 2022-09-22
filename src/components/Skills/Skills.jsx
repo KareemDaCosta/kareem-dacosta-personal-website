@@ -8,8 +8,8 @@ export default function Skills() {
     "HTML",
     "CSS",
     "JavaScript",
-    "React",
-    "Node/Express",
+    "React.js",
+    "Node.js/Express.js",
     "Parse",
   ];
 

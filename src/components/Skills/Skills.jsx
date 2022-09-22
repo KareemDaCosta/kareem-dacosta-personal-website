@@ -16,11 +16,10 @@ export default function Skills() {
   const editorsKnown = [
     "Visual Studio Code",
     "Vim",
+    "Unix",
     "Spyder",
     "Jupyter Notebook",
-    "Eclipse",
-    "Anylogic",
-    "Unix"
+    "Eclipse"
   ];
 
   return (

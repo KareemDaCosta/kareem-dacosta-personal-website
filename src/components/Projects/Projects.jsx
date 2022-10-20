@@ -17,11 +17,11 @@ export default function Projects() {
 			description: (
 				<>
 					<div>
-						Website to help users find Dungeons and Dragons parties
-						that meet their interests.
+						• Website to help users find Dungeons and Dragons
+						parties that meet their interests.
 					</div>
 					<div>
-						Features custom-built live and paginated chat and
+						• Features custom-built live and paginated chat and
 						notifications systems created with Sockets API | a
 						paginated, ranked, dynamically fetched party query
 						system | background thread prefetching | responsive web
@@ -114,12 +114,12 @@ export default function Projects() {
 			description: (
 				<>
 					<div>
-						Hackathon project created for HackMIT. Collaborated with
-						a four-person team to code a website that encourages
-						electronic recycling.
+						• Hackathon project created for HackMIT. Collaborated
+						with a four-person team to code a website that
+						encourages electronic recycling.
 					</div>
 					<div>
-						Individually parsed two .csv files using JavaScript to
+						• Individually parsed two .csv files using JavaScript to
 						dynamically generate write-ups and charts (using Google
 						Charts API) about the elements in each device. Enabled
 						the scaling of the website to include more devices

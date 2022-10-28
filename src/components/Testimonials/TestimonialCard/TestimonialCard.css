@@ -1,0 +1,66 @@
+.testimonial-thumbnail-wrapper {
+    max-width: 300px;
+    background-color: white
+}
+
+.testimonial-thumbnail-wrapper img {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.testimonial-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.testimonial {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial-quote {
+    font-family: "Inter";
+
+}
+
+.testimonial-name {
+    font-family: "Brush Script MT";
+}
+
+.testimonial, .testimonial-link {
+    grid-row: 1 / span 1;
+}
+
+.even .testimonial{
+    grid-column: 1 / span 2;
+}
+
+.even .testimonial-link {
+    grid-column: 3 / span 1;
+}
+
+.odd .testimonial{
+    grid-column: 2 / span 2;
+}
+
+.odd .testimonial-link {
+    grid-column: 1 / span 1;
+}
+
+.hr {
+    border-top: 1px solid black;
+    margin: 0px 90px;
+  }
+
+@media screen and (max-width: 600px) {
+    .testimonial-card {
+        display: block;
+    }
+}

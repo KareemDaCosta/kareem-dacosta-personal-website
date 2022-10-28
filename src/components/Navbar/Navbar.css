@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 370px) {
   .navbar-button-container {
     flex-flow: column wrap;
   }

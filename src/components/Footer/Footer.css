@@ -35,6 +35,10 @@
   margin-right: 10px;
 }
 
+.footer-button img:hover {
+  filter:brightness(80%);
+}
+
 .hr {
   border-top: 1px solid #faf9f6;
   margin: 0px 50px;

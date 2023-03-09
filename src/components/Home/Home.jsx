@@ -29,7 +29,7 @@ export default function Home() {
               </div>
             </div>
             <div className="profile-card-text-blurb">
-              A Black/Egyptian second-year student at Columbia University's School of
+              A second-year student at Columbia University's School of
               Engineering and Applied Sciences majoring in computer science.
             </div>
           </div>

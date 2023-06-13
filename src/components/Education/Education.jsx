@@ -4,6 +4,29 @@ import cgpsLogo from "../../images/education/CGPS.png";
 
 const columbiaRelevantCourses = [
 	{
+		title: "Artificial Intelligence",
+		grade: "A",
+		language: "Python",
+		date: "Spring 2023",
+	},
+	{
+		title: "Computer Science Theory",
+		grade: "A+",
+		date: "Spring 2023",
+	},
+	{
+		title: "Computational Linear Algebra",
+		grade: "A",
+		language: "Python",
+		date: "Fall 2022",
+	},
+	{
+		title: "Fundamentals of Computer Systems",
+		grade: "A+",
+		language: "MIPS Assembly",
+		date: "Fall 2022",
+	},
+	{
 		title: "Advanced Programming",
 		grade: "A+",
 		language: "C",

@@ -1,6 +1,7 @@
 import "./Projects.css";
 import ProjectCard from "./ProjectCard/ProjectCard";
 
+import MSINT from "../../images/projects/MSINT.png";
 import dungeonDelver from "../../images/projects/dungeon-delver.png";
 import studentStore from "../../images/projects/student-store.png";
 import flixster from "../../images/projects/flixster.png";
@@ -9,6 +10,29 @@ import moniac from "../../images/projects/moniac.png";
 
 export default function Projects() {
 	const projects = [
+		{
+			image: MSINT,
+			name: "MSINT Neural Network",
+			date: "April 2023",
+			specs: "Python • Numpy",
+			description: (
+				<>
+					<div>
+						• Created a neural network using only numpy and python
+						that achieved over 85% accuracy on the MNIST dataset.
+					</div>
+					<div>
+						View the{" "}
+						<a
+							href="https://github.com/KareemDaCosta/msint-neural-network"
+							target="_blank">
+							Github
+						</a>{" "}
+						here!
+					</div>
+				</>
+			),
+		},
 		{
 			image: dungeonDelver,
 			name: "Dungeon Delver",
@@ -90,7 +114,7 @@ export default function Projects() {
 					</div>
 
 					<div>
-						If you're interested, you may check out the{" "}
+						If you're interested, check out the{" "}
 						<a
 							href="https://github.com/KareemDaCosta/Flixster"
 							target="_blank">

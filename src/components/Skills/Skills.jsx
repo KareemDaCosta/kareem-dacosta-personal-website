@@ -15,6 +15,10 @@ export default function Skills() {
 	const Libraries = [
 		"React.js",
 		"Node.js/Express.js",
+		"GraphQL",
+		"Relay",
+		"Redux",
+		"Django",
 		"Numpy",
 		"Pandas",
 		"Matplotlib",

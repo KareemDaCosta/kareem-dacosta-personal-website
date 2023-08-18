@@ -32,11 +32,17 @@ export default function Experience() {
 			),
 			description: (
 				<>
-					• Working as part of the Instagram Web Core team to
-					modernize code structure, layout, and design of the settings
-					page.
-					<br />• Migrating outdated server-side code to new React
-					components in frontend and new backend for final project.
+					• Designed and implemented a restructuring of Instagram Web
+					Settings that improved performance and increased flexibility
+					of underlying architecture three weeks ahead of schedule
+					using React, Relay, and GraphQL.
+					<br />• Redesigned core Instagram components and ensured
+					a11y compatibility
+					<br />• Provided weekly updates and led implementation
+					strategy meetings with team members to ensure code quality.
+					<br />• Developed pages for managing tagged posts in an
+					individually scoped-out project and boosted performance
+					using React, Relay, GraphQL, and Django.
 				</>
 			),
 		},

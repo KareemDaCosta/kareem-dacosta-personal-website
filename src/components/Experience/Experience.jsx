@@ -27,7 +27,7 @@ export default function Experience() {
 			dates: (
 				<>
 					May 2023 -<br />
-					Present
+					August 2023
 				</>
 			),
 			description: (
@@ -64,9 +64,7 @@ export default function Experience() {
 			dates: (
 				<>
 					September 2022 -<br />
-					May 2023;
-					<br />
-					September 2023 -<br />
+					May 2023
 				</>
 			),
 			description: (
@@ -108,7 +106,7 @@ export default function Experience() {
 			dates: (
 				<>
 					August 2022 -<br />
-					Present
+					May 2023
 				</>
 			),
 			description: (

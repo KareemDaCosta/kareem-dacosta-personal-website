@@ -19,6 +19,7 @@ export default function Skills() {
 		"Relay",
 		"Redux",
 		"Django",
+		"Flask",
 		"Numpy",
 		"Pandas",
 		"Matplotlib",

@@ -4,6 +4,23 @@ import cgpsLogo from "../../images/education/CGPS.png";
 
 const columbiaRelevantCourses = [
 	{
+		title: "Introduction to Databases",
+		grade: "A+",
+		language: "PostgreSQL, Python (Flask)",
+		date: "Fall 2023",
+	},
+	{
+		title: "Hacking 4 wDefense",
+		grade: "A",
+		date: "Fall 2023",
+	},
+	{
+		title: "Natural Language Processing",
+		grade: "A",
+		language: "Python",
+		date: "Fall 2023",
+	},
+	{
 		title: "Artificial Intelligence",
 		grade: "A",
 		language: "Python",
@@ -82,7 +99,7 @@ export default function Education() {
 					<span>Bachelors of Science (Class of 2025)</span>
 				</div>
 				<div className="education-gpa">
-					GPA: <span>4.16</span>
+					GPA: <span>4.10</span>
 				</div>
 				<div className="education-list-wrapper">
 					<div className="education-coursework-header education-header">

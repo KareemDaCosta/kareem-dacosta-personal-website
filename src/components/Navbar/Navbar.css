@@ -31,6 +31,8 @@
 
 .navbar a h1 {
   font-family: "Helvetica";
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .navbar a {

@@ -10,11 +10,6 @@ const columbiaRelevantCourses = [
 		date: "Fall 2023",
 	},
 	{
-		title: "Hacking 4 wDefense",
-		grade: "A",
-		date: "Fall 2023",
-	},
-	{
 		title: "Natural Language Processing",
 		grade: "A",
 		language: "Python",
@@ -95,11 +90,11 @@ export default function Education() {
 					Sciences
 				</div>
 				<div className="education-degree">
-					Expected Degree:{" "}
-					<span>Bachelors of Science (Class of 2025)</span>
+					<span>Expected Degree: </span>
+					Bachelors of Science (Class of 2025)
 				</div>
 				<div className="education-gpa">
-					GPA: <span>4.10</span>
+					<span>GPA: </span>4.11
 				</div>
 				<div className="education-list-wrapper">
 					<div className="education-coursework-header education-header">
@@ -117,15 +112,29 @@ export default function Education() {
 											{course.title}
 										</div>
 										<div className="education-course-date">
-											Semester: {course.date}
+											Semester:{" "}
+											<span className="dark-gray">
+												{course.date}
+											</span>
 										</div>
 										<div className="education-course-grade">
-											Grade Received: {course.grade}
+											Grade:{" "}
+											<span className="dark-gray">
+												{course.grade}
+											</span>
 										</div>
 										{course.hasOwnProperty("language") ? (
 											<div className="education-course-language">
-												Languages used:{" "}
-												{course.language}
+												{course.language.includes(
+													","
+												) ? (
+													<>Languages: </>
+												) : (
+													<>Language: </>
+												)}
+												<span className="dark-gray">
+													{course.language}
+												</span>
 											</div>
 										) : (
 											""
@@ -160,7 +169,6 @@ export default function Education() {
 						Awards Received
 					</div>
 					<ul className="education-awards education-list">
-						<div className="education-horizontal-line" />
 						<li className="education-award education-li">
 							James W. Stern Award (third in class ranking)
 						</li>

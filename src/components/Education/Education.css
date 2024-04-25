@@ -41,7 +41,7 @@
 
 .education-degree span,
 .education-gpa span {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .education-gpa {
@@ -79,7 +79,8 @@
 
 .education-course-title {
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 600;
+  margin-bottom: 8px;
 }
 
 .education-course-date,
@@ -98,6 +99,10 @@
 
 .education-award {
   line-height: 1.5;
+}
+
+.education-awards-header {
+  margin-bottom: 12px;
 }
 
 @media screen and (max-width: 860px) {

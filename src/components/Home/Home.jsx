@@ -40,8 +40,8 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<TypingEffect />
-			<ImageGallery />
+			{/*<TypingEffect />
+			<ImageGallery />*/}
 		</div>
 	);
 }

@@ -21,13 +21,13 @@ export default function Skills() {
 		"Django",
 		"Flask",
 		"Numpy",
-		"Pandas",
 		"Matplotlib",
 		"Tensorflow",
 		"Scrapy",
 		"Selenium",
 		"Git",
 		"Mercurial",
+		"Figma",
 	];
 
 	return (

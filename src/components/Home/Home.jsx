@@ -1,8 +1,5 @@
 import "./Home.css";
 import profilePic from "../../images/profilePic.jpg";
-import { useEffect, useRef } from "react";
-import TypingEffect from "../TypingEffect/TypingEffect";
-import ImageGallery from "../ImageGallery/ImageGallery";
 
 export default function Home() {
 	return (

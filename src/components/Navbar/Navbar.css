@@ -4,7 +4,7 @@
   max-width: 100%;
   padding: 20px;
   text-align: left;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-right: 5%;
   font-family: "Inter";
   color: black;
@@ -31,8 +31,8 @@
 
 .navbar a h1 {
   font-family: "Helvetica";
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .navbar a {

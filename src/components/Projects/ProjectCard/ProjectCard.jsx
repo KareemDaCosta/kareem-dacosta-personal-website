@@ -3,7 +3,7 @@ import "./ProjectCard.css";
 export default function ProjectCard({ project }) {
 	const formatSpecs = (specs) => {
 		return specs.map((spec, i) => {
-			if (i == specs.length - 1) {
+			if (i === specs.length - 1) {
 				return (
 					<span key={i} className="base">
 						{spec}
@@ -25,7 +25,7 @@ export default function ProjectCard({ project }) {
 				<span>{project.name}</span>
 			</div>
 			<div className="project-media-container">
-				{project.mediaType == "video" ? (
+				{project.mediaType === "video" ? (
 					project.media
 				) : (
 					<img

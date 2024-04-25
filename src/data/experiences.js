@@ -15,6 +15,7 @@ const experiences = [
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858170.131883427!2d-75.38512592065173!3d40.10186695191752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1662150859167!5m2!1sen!2sus"
                 width="200"
                 height="200"
+                title="Meta Map"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"></iframe>
@@ -52,6 +53,7 @@ const experiences = [
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858170.131883427!2d-75.38512592065173!3d40.10186695191752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1662150859167!5m2!1sen!2sus"
                 width="200"
                 height="200"
+                title="SSQRD Map"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"></iframe>
@@ -94,6 +96,7 @@ const experiences = [
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858170.131883427!2d-75.38512592065173!3d40.10186695191752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1662150859167!5m2!1sen!2sus"
                 width="200"
                 height="200"
+                title="Columbia University Map"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"></iframe>
@@ -124,6 +127,7 @@ const experiences = [
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574860.2120714451!2d-121.69581172626474!3d37.25520386483687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbd00e95f08c9%3A0x97cf258e1ae71ca0!2s1%20Hacker%20Way%2C%20Menlo%20Park%2C%20CA%2094025!5e0!3m2!1sen!2sus!4v1662150144325!5m2!1sen!2sus"
                 width="200"
                 height="200"
+                title="Meta Map CA"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"></iframe>
@@ -142,13 +146,13 @@ const experiences = [
                 Twitter <br />• Created a{" "}
                 <a
                     href="https://dungeon-delver.vercel.app/"
-                    target="_blank">
+                    target="_blank" rel="noreferrer">
                     website
                 </a>{" "}
                 in 6 weeks using a React frontend, a Node/Express backend,
                 and a Parse database to match users with Dungeons and
                 Dragons parties meeting their interests. Code available on{" "}
-                <a href="https://github.com/Dungeon-Delver" target="_blank">
+                <a href="https://github.com/Dungeon-Delver" target="_blank" rel="noreferrer">
                     Github
                 </a>.{" "}
                 <br />
@@ -179,6 +183,7 @@ const experiences = [
                 width="200"
                 height="200"
                 style={{ border: 0 }}
+                title="We Love Coding Map"
                 allowFullScreen=""
                 loading="lazy"></iframe>
         ),
@@ -218,6 +223,7 @@ const experiences = [
                 height="200"
                 style={{ border: 0 }}
                 allowFullScreen=""
+                title="Misr Public Library Map"
                 loading="lazy"></iframe>
         ),
         position: "Coding Videos Creator",
@@ -238,10 +244,10 @@ const experiences = [
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/ZQZVrYzWWGI"
-                    title="Cat and Balloon  Scratch Video 1"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    title="Cat and Balloon Scratch Video 1"
+                    frameBorder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen></iframe>
             </>
         ),
     },

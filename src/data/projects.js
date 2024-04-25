@@ -33,7 +33,7 @@ const projects = [
                     Feel free view the{" "}
                     <a
                         href="https://drive.google.com/file/d/1xsLXrtGiYGzQaYU3I610phDs8rT4rvdv/view?usp=sharing"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         slide deck
                     </a>!
                 </div>
@@ -56,7 +56,7 @@ const projects = [
                     View the{" "}
                     <a
                         href="https://github.com/KareemDaCosta/msint-neural-network"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         Github
                     </a>{" "}
                     here!
@@ -88,13 +88,13 @@ const projects = [
                     Make sure to check out the{" "}
                     <a
                         href="https://github.com/Dungeon-Delver"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         Github
                     </a>{" "}
                     and{" "}
                     <a
                         href="https://dungeon-delver.vercel.app/"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         Website
                     </a>
                 </div>
@@ -119,13 +119,13 @@ const projects = [
                     Feel free to check out the{" "}
                     <a
                         href="https://github.com/KareemDaCosta/Student-Store"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         Github
                     </a>{" "}
                     or{" "}
                     <a
                         href="https://student-store-ui.vercel.app/"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         Website
                     </a>
                     .
@@ -151,13 +151,13 @@ const projects = [
                     If you're interested, check out the{" "}
                     <a
                         href="https://github.com/KareemDaCosta/Flixster"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         Github
                     </a>{" "}
                     or{" "}
                     <a
                         href="https://kareemdacosta.github.io/Flixster/"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         Website
                     </a>
                 </div>
@@ -191,11 +191,11 @@ const projects = [
                     Feel free to check out the{" "}
                     <a
                         href="https://github.com/Cyno00/Project-Silo"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         Github
                     </a>{" "}
                     or{" "}
-                    <a href="https://silo.vercel.app/" target="_blank">
+                    <a href="https://silo.vercel.app/" target="_blank" rel="noreferrer">
                         Website
                     </a>
                     .
@@ -215,7 +215,7 @@ const projects = [
                     Coded a digital version of the{" "}
                     <a
                         href="https://cloud.anylogic.com/model/0c280d07-3f21-4e7f-9307-9e0fac39fa14"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         MONIAC
                     </a>{" "}
                     macroeconomic model.

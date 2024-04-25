@@ -5,7 +5,7 @@ export default function Navbar() {
 	return (
 		<div className="navbar">
 			<Link to={"/"}>
-				<h1 className="base">Kareem DaCosta</h1>
+				<h1 className="">Kareem DaCosta</h1>
 			</Link>
 			<div className="navbar-button-container">
 				<Link

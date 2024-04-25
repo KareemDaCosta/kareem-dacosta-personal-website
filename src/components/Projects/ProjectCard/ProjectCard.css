@@ -59,10 +59,9 @@
   max-width: 100%;
 }
 
-/* And set the max-width of the parent element */
 .video-wrap {
   width: calc(100%-10px);
-  max-width: 600px;
+  max-width: calc(100%-10px);
   min-width: calc(100%-10px);
   padding: 10px;
   border-radius: 10px;
@@ -118,12 +117,15 @@
     flex-flow: column wrap;
   }
 
-  .project-media-container, .video-wrap, .video-container {
+  .project-media-container, .video-container {
     width: 100%;
   }
 
-  .vidoe-wrap {
+  .video-wrap {
     margin-right: 0px;
+    width: calc(100%-10px);
+    max-width: calc(100%-10px);
+    min-width: calc(100%-10px);
   }
 
   .project-horizontal-line {

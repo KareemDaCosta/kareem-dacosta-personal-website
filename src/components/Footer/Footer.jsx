@@ -19,7 +19,8 @@ export default function Footer() {
 						<a
 							href="https://github.com/KareemDaCosta"
 							className="footer-button"
-							target="_blank">
+							target="_blank"
+							rel="noreferrer">
 							<img src={github} alt="github" />
 						</a>
 					</div>
@@ -27,7 +28,8 @@ export default function Footer() {
 						<a
 							href="https://www.linkedin.com/in/kareemdacosta"
 							className="footer-button"
-							target="_blank">
+							target="_blank"
+							rel="noreferrer">
 							<img src={linkedin} alt="linked in" />
 						</a>
 					</div>
@@ -35,11 +37,16 @@ export default function Footer() {
 						<a
 							href="mailto:kareem.dacosta@columbia.edu"
 							className="footer-button"
-							target="_blank">
+							target="_blank"
+							rel="noreferrer">
 							<img src={gmail} alt="email" />
 						</a>
 					</div>
-					<a href={resume} target="_blank" className="resume-link">
+					<a
+						href={resume}
+						target="_blank"
+						rel="noreferrer"
+						className="resume-link">
 						<div className="download-resume-button">
 							<img
 								className="resume-icon"

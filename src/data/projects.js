@@ -17,7 +17,7 @@ const projects = [
         description: (
             <>
                 <div>
-                    • Prototyped a mobile app called Ezroute using the <span className="accent">Human-Centered Design process</span>.
+                    • Prototyped a mobile app called Ezroute using the <span className="primary">Human-Centered Design process</span>.
                 </div>
                 <div>
                     • Conducted primary and secondary research into territories and problem spaces
@@ -51,7 +51,7 @@ const projects = [
         description: (
             <>
                 <div>
-                    • Created a neural network using <span className="accent">only numpy and python</span>{" "}
+                    • Created a neural network using <span className="primary">only numpy and python</span>{" "}
                     that achieved over 85% accuracy on the MNIST dataset.
                 </div>
                 <div>
@@ -79,9 +79,9 @@ const projects = [
                     parties that meet their interests.
                 </div>
                 <div>
-                    • Features custom-built <span className="accent">live</span> and <span className="accent">paginated chat and
+                    • Features custom-built <span className="primary">live</span> and <span className="primary">paginated chat and
                     notifications systems</span> created with Sockets API | a
-                    <span className="accent"> paginated, ranked, dynamically fetched party query
+                    <span className="primary"> paginated, ranked, dynamically fetched party query
                     system</span> | background thread prefetching | responsive web
                     design | custom party images | persistent login | recoil
                     state management.
@@ -181,7 +181,7 @@ const projects = [
                 </div>
                 <div>
                     • Individually parsed two .csv files using JavaScript to
-                    <span className="accent"> dynamically generate write-ups and charts</span> (using Google
+                    <span className="primary"> dynamically generate write-ups and charts</span> (using Google
                     Charts API) about the elements in each device.
                 </div>
                 <div>

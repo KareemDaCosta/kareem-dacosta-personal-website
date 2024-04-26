@@ -9,7 +9,7 @@ export default function HighlightGallery() {
 	return (
 		<div className="highlight-gallery">
 			<div className="highlight-gallery-section">
-				<div className="highlight-gallery-heading accent">
+				<div className="highlight-gallery-heading primary">
 					Latest Experiences
 				</div>
 				<div className="highlight-gallery-experience-contents">
@@ -19,7 +19,7 @@ export default function HighlightGallery() {
 				</div>
 			</div>
 			<div className="highlight-gallery-section">
-				<div className="highlight-gallery-heading accent">
+				<div className="highlight-gallery-heading primary">
 					Top Projects
 				</div>
 				<div className="highlight-gallery-projects-contents">

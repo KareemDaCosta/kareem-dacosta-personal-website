@@ -13,11 +13,15 @@ code {
 }
 
 .primary {
+  color: #2596be;
+}
+
+.link {
   color: #9966cc;
 }
 
-.accent {
-  color: #2596be;
+.link:hover {
+  color: #5f17a7;
 }
 
 .dark-gray {

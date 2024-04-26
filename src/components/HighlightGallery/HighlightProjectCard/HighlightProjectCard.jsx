@@ -20,9 +20,7 @@ export default function ProjectCard({ i, item }) {
 	const renderText = () => {
 		return (
 			<div className="highlight-project-text">
-				<div className="highlight-project-title primary">
-					{item.name}
-				</div>
+				<div className="highlight-project-title">{item.name}</div>
 				<div className="highlight-project-description">
 					{item.specs.slice(0, 3).map((spec, i) => {
 						if (i === item.specs.length - 1 || i === 2) {
@@ -41,7 +39,7 @@ export default function ProjectCard({ i, item }) {
 	};
 	return (
 		<Link to={`/projects`} state={{ index: i }}>
-			<div className="highlight-project-card highlight-card">
+			<div className="highlight-project-card highlight-card link">
 				{renderImage()}
 				{renderText()}
 			</div>

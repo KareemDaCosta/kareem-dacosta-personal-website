@@ -13,9 +13,7 @@ export default function ExperienceCard({ i, item }) {
 	const renderText = () => {
 		return (
 			<div className="highlight-experience-text">
-				<div className="highlight-experience-title primary">
-					{item.company}
-				</div>
+				<div className="highlight-experience-title">{item.company}</div>
 				<div className="highlight-experience-position">
 					{item.position}
 				</div>
@@ -24,7 +22,7 @@ export default function ExperienceCard({ i, item }) {
 	};
 	return (
 		<Link to={`/experience`} state={{ index: i }}>
-			<div className="highlight-experience-card highlight-card">
+			<div className="highlight-experience-card highlight-card link">
 				{renderImage()}
 				{renderText()}
 			</div>

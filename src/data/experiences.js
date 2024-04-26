@@ -30,12 +30,12 @@ const experiences = [
         description: (
             <>
                 • Designed and implemented a restructuring of Instagram Web
-                Settings that <span className="accent">improved performance </span>and <span className="accent">increased flexibility </span> 
-                of underlying architecture <span className="accent">three weeks ahead of schedule </span>
+                Settings that <span className="primary">improved performance </span>and <span className="primary">increased flexibility </span> 
+                of underlying architecture <span className="primary">three weeks ahead of schedule </span>
                 using React, Relay, and GraphQL.
                 <br />• Redesigned core Instagram components and ensured
                 a11y compatibility
-                <br />• Provided weekly updates and <span className="accent">led implementation
+                <br />• Provided weekly updates and <span className="primary">led implementation
                 strategy meetings </span>with team members to ensure code quality.
                 <br />• Developed pages for managing tagged posts in an
                 individually scoped-out project and boosted performance
@@ -68,7 +68,7 @@ const experiences = [
         description: (
             <>
                 • Designed and developed a Python-based Scrapy web scraper,
-                which resulted in a <span className="accent">3800% speed improvement </span>and <span className="accent">enhanced
+                which resulted in a <span className="primary">3800% speed improvement </span>and <span className="primary">enhanced
                 system reliability</span>.
                 <br />
                 • Successfully built a full-stack website utilizing
@@ -77,7 +77,7 @@ const experiences = [
                 <br />
                 • Participated in weekly Agile stand-up meetings to align on
                 progress and strategize for the subsequent week's tasks.
-                <br />• <span className="accent">Conducted 1:1 mentoring sessions </span>to explain React
+                <br />• <span className="primary">Conducted 1:1 mentoring sessions </span>to explain React
                 concepts, pair-program, and recommended sources for further
                 learning.
                 <br />• Delivered a presentation to a group of 30 computer
@@ -156,9 +156,9 @@ const experiences = [
                     Github
                 </a>.{" "}
                 <br />
-                • Implemented custom-built <span className="accent">live</span> and <span className="accent">paginated chat and
+                • Implemented custom-built <span className="primary">live</span> and <span className="primary">paginated chat and
                     notifications systems</span> created with Sockets API | a
-                    <span className="accent"> paginated, ranked, dynamically fetched party query
+                    <span className="primary"> paginated, ranked, dynamically fetched party query
                     system</span> | background thread prefetching | responsive web
                     design | custom party images | persistent login | recoil
                     state management.
@@ -166,7 +166,7 @@ const experiences = [
                 • Earned rating of absolute confidence hire along with
                 return offer as recognition for work that greatly exceeded
                 expectations. <br />
-                • Worked with manager on internal SEVs due to <span className="accent">completing
+                • Worked with manager on internal SEVs due to <span className="primary">completing
                 website ahead of an aggressively planned schedule</span>.
                 <br />
             </>
@@ -200,8 +200,8 @@ const experiences = [
                 coding to underserved middle school students, contributing
                 over 100 volunteer hours. <br />
                 • Solely initiated and managed a transition to online
-                learning during the pandemic, resulting in a <span className="accent">tripling of
-                students </span>and <span className="accent">doubling of teachers</span>. <br />
+                learning during the pandemic, resulting in a <span className="primary">tripling of
+                students </span>and <span className="primary">doubling of teachers</span>. <br />
                 • Managed communications with parents and volunteering
                 locations such as community centers and middle schools,
                 organized online classes, and provided weekly updates. <br />

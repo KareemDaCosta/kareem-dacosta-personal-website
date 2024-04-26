@@ -1,7 +1,7 @@
 .highlight-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 50px;
+    margin: 50px 0px 36px 0px;
 }
 
 .highlight-gallery-section {

@@ -8,7 +8,7 @@ import moniac from "../images/projects/moniac.png";
 
 const projects = [
     {
-        media: <div className="video-wrap"><div className="video-container"><iframe src="https://www.youtube.com/embed/EMfpoICKtKY?si=Lzz5O9_e0J3ZNNlB" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div></div>,
+        media: <div className="video-wrap"><div className="video-container"><iframe src="https://www.youtube.com/embed/EMfpoICKtKY?si=Lzz5O9_e0J3ZNNlB" title="YouTube video player" frameBorder="0" allow="web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div></div>,
         mediaType: "video",
         thumbnail: ezroute,
         name: "Ezroute",

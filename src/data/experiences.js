@@ -246,7 +246,7 @@ const experiences = [
                     src="https://www.youtube.com/embed/ZQZVrYzWWGI"
                     title="Cat and Balloon Scratch Video 1"
                     frameBorder="0"
-                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allow="web-share"
                     allowFullScreen></iframe>
             </>
         ),

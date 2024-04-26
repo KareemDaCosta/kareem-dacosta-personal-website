@@ -60,9 +60,9 @@
 }
 
 .video-wrap {
-  width: calc(100%-20px);
-  max-width: calc(100%-20px);
-  min-width: calc(100%-20px);
+  width: calc(100%-30px);
+  max-width: calc(100%-30px);
+  min-width: calc(100%-30px);
   padding: 10px;
   border-radius: 10px;
   background-color:rgba(0, 0, 0, 0.05);

@@ -19,14 +19,14 @@ export default function ProjectCard({ project, i }) {
 		return specs.map((spec, i) => {
 			if (i === specs.length - 1) {
 				return (
-					<span key={i} className="accent">
+					<span key={i} className="">
 						{spec}
 					</span>
 				);
 			} else {
 				return (
 					<span key={i}>
-						<span className="accent">{spec}</span> •{" "}
+						<span className="">{spec}</span> •{" "}
 					</span>
 				);
 			}

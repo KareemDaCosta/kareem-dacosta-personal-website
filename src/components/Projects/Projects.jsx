@@ -6,7 +6,7 @@ export default function Projects() {
 	return (
 		<div className="projects">
 			{projects.map((item, i) => {
-				return <ProjectCard key={i} project={item} />;
+				return <ProjectCard key={i} i={i} project={item} />;
 			})}
 		</div>
 	);

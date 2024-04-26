@@ -227,4 +227,7 @@ const projects = [
     },
 ]
 
+const highlightProjects = projects.slice(0, 3)
+
 export default projects;
+export { highlightProjects };

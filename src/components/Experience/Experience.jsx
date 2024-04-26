@@ -6,7 +6,7 @@ export default function Experience() {
 	return (
 		<div className="experience">
 			{experiences.map((item, i) => {
-				return <ExperienceCard key={i} experience={item} />;
+				return <ExperienceCard key={i} i={i} experience={item} />;
 			})}
 		</div>
 	);

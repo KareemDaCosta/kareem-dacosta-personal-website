@@ -253,4 +253,7 @@ const experiences = [
     },
 ];
 
+const highlightExperiences = experiences.slice(0, 3);
+
 export default experiences;
+export {highlightExperiences};

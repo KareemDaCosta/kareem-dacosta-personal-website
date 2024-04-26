@@ -23,7 +23,7 @@ export default function ExperienceCard({ i, item }) {
 		);
 	};
 	return (
-		<Link to={`/experience/#experience-${i}`}>
+		<Link to={`/experience`} state={{ index: i }}>
 			<div className="highlight-experience-card highlight-card">
 				{renderImage()}
 				{renderText()}

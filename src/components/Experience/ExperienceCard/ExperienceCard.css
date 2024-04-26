@@ -144,10 +144,6 @@
     margin: auto;
   }
 
-  .experience-description span {
-    display: block;
-  }
-
   .experience-description iframe {
     max-width: calc(100vw - 100px);
     max-height: calc((100vw - 100px) / 560 * 315);

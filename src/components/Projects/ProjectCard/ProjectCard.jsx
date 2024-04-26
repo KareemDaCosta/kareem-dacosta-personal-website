@@ -5,14 +5,14 @@ export default function ProjectCard({ project }) {
 		return specs.map((spec, i) => {
 			if (i === specs.length - 1) {
 				return (
-					<span key={i} className="base">
+					<span key={i} className="primary">
 						{spec}
 					</span>
 				);
 			} else {
 				return (
 					<span key={i}>
-						<span className="base">{spec}</span> •{" "}
+						<span className="primary">{spec}</span> •{" "}
 					</span>
 				);
 			}

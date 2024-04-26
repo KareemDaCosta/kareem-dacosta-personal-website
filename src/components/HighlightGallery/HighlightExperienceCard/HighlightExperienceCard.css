@@ -1,0 +1,18 @@
+.highlight-experience-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 3px;
+}
+
+.highlight-experience-title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.highlight-experience-position {
+    font-size: 18px;
+    text-align: center;
+}

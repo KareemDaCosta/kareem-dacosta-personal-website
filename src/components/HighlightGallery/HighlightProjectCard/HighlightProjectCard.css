@@ -1,0 +1,24 @@
+.highlight-gallery-project-contents a {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.highlight-project-image {
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 3px;
+}
+
+.highlight-project-title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.highlight-project-description {
+    font-size: 18px;
+    text-align: center;
+}

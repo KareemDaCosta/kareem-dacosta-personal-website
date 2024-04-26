@@ -1,3 +1,4 @@
+import ezroute from "../images/projects/ezroute.png";
 import MSINT from "../images/projects/MSINT.png";
 import dungeonDelver from "../images/projects/dungeon-delver.png";
 import studentStore from "../images/projects/student-store.png";
@@ -9,6 +10,7 @@ const projects = [
     {
         media: <div className="video-wrap"><div className="video-container"><iframe src="https://www.youtube.com/embed/EMfpoICKtKY?si=Lzz5O9_e0J3ZNNlB" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div></div>,
         mediaType: "video",
+        thumbnail: ezroute,
         name: "Ezroute",
         date: "April 2024",
         specs: ["Figma"],
@@ -42,7 +44,7 @@ const projects = [
     },
     {
         media: MSINT,
-        media_type: "image",
+        mediaType: "image",
         name: "MSINT Neural Network",
         date: "April 2023",
         specs: ["Python", "Numpy"],
@@ -66,7 +68,7 @@ const projects = [
     },
     {
         media: dungeonDelver,
-        media_type: "image",
+        mediaType: "image",
         name: "Dungeon Delver",
         date: "June 2022 - August 2022",
         specs: ["React", "Node/Express", "Parse Database", "Recoil", "Sockets API"],
@@ -103,7 +105,7 @@ const projects = [
     },
     {
         media: studentStore,
-        media_type: "image",
+        mediaType: "image",
         name: "Student Store",
         date: "May 2022 - June 2022",
         specs: ["React", "Node/Express"],
@@ -135,7 +137,7 @@ const projects = [
     },
     {
         media: flixster,
-        media_type: "image",
+        mediaType: "image",
         name: "Flixster",
         date: "May 2022",
         specs: ["HTML/CSS/JS"],
@@ -166,7 +168,7 @@ const projects = [
     },
     {
         media: projectSilo,
-        media_type: "image",
+        mediaType: "image",
         name: "Project Silo",
         date: "September 2021",
         specs: ["HTML/CSS/JS"],
@@ -205,7 +207,7 @@ const projects = [
     },
     {
         media: moniac,
-        media_type: "image",
+        mediaType: "image",
         name: "Moniac Model",
         date: "August 2020",
         specs: ["Java/AnyLogic"],

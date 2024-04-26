@@ -1,5 +1,6 @@
 import "./Home.css";
 import profilePic from "../../images/profilePic.jpg";
+import HighlightGallery from "../HighlightGallery/HighlightGallery";
 
 export default function Home() {
 	return (
@@ -37,6 +38,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+			<HighlightGallery />
 			{/*<TypingEffect />
 			<ImageGallery />*/}
 		</div>

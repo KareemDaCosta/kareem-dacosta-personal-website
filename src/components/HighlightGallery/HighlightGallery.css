@@ -1,0 +1,46 @@
+.highlight-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+
+.highlight-gallery-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.highlight-gallery-experience-contents {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.highlight-gallery-projects-contents {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.highlight-card {
+    width: 175px;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #faf9f6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    min-height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 986px) {
+    .highlight-gallery {
+        display: block;
+    }
+}

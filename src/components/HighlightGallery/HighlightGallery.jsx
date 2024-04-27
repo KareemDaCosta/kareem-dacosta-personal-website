@@ -23,8 +23,14 @@ export default function HighlightGallery() {
 					Top Projects
 				</div>
 				<div className="highlight-gallery-projects-contents">
-					{highlightProjects.map((item, i) => {
-						return <ProjectCard key={i} i={i} item={item} />;
+					{highlightProjects.map((item) => {
+						return (
+							<ProjectCard
+								key={item["index"]}
+								i={item["index"]}
+								item={item["data"]}
+							/>
+						);
 					})}
 				</div>
 			</div>

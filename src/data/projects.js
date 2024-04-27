@@ -227,7 +227,20 @@ const projects = [
     },
 ]
 
-const highlightProjects = projects.slice(0, 3)
+const highlightProjects = [
+    {
+        index: 0,
+        data: projects[0],
+    },
+    {
+        index: 1,
+        data: projects[1],
+    },
+    {
+        index: 2,
+        data: projects[2],
+    },
+]
 
 export default projects;
 export { highlightProjects };

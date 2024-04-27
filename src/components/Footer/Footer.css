@@ -38,7 +38,7 @@
 }
 
 .footer-button img:hover {
-  filter:brightness(80%);
+  filter:brightness(90%);
 }
 
 .hr {
@@ -51,7 +51,7 @@
 }
 
 .resume-link:hover {
-  filter: brightness(80%);
+  filter: brightness(90%);
 }
 
 .download-resume-button {

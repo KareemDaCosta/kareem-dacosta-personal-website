@@ -44,7 +44,7 @@
 }
 
 .highlight-card:hover {
-    filter: brightness(90%);
+    filter: brightness(95%);
 }
 
 @media screen and (max-width: 1000px) {

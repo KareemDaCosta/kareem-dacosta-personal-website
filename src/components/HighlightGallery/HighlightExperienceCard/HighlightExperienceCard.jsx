@@ -22,7 +22,7 @@ export default function ExperienceCard({ i, item }) {
 	};
 	return (
 		<Link to={`/experience`} state={{ index: i }}>
-			<div className="highlight-experience-card highlight-card link">
+			<div className="highlight-experience-card highlight-card accent">
 				{renderImage()}
 				{renderText()}
 			</div>

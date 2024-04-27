@@ -39,7 +39,7 @@ export default function ProjectCard({ i, item }) {
 	};
 	return (
 		<Link to={`/projects`} state={{ index: i }}>
-			<div className="highlight-project-card highlight-card link">
+			<div className="highlight-project-card highlight-card accent">
 				{renderImage()}
 				{renderText()}
 			</div>

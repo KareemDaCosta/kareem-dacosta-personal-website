@@ -47,7 +47,7 @@
     filter: brightness(90%);
 }
 
-@media screen and (max-width: 986px) {
+@media screen and (max-width: 1000px) {
     .highlight-gallery {
         display: block;
     }

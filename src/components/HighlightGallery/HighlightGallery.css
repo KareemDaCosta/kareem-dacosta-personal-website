@@ -43,6 +43,10 @@
     margin-right: 10px;
 }
 
+.highlight-card:hover {
+    filter: brightness(90%);
+}
+
 @media screen and (max-width: 986px) {
     .highlight-gallery {
         display: block;

@@ -29,6 +29,10 @@
   margin-right: 20px;
 }
 
+.navbar-button:hover, .navbar a:hover {
+  color: rgb(125, 125, 125);
+}
+
 .navbar a h1 {
   font-family: "Helvetica";
   font-size: 32px;

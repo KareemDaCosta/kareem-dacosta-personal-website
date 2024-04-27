@@ -50,6 +50,10 @@
   color: black;
 }
 
+.resume-link:hover {
+  filter: brightness(80%);
+}
+
 .download-resume-button {
   background-color: #faf9f6;
   border-radius: 5px;

@@ -4,9 +4,11 @@ export default function Skills() {
 	const languagesKnown = [
 		"JavaScript",
 		"Python",
+		"Kotlin",
 		"Java",
 		"C",
 		"C++",
+		"Objective-C",
 		"HTML",
 		"CSS",
 		"PostgreSQL",

@@ -176,7 +176,7 @@ const projects = [
         mediaType: "image",
         name: "Flixster",
         date: "May 2022",
-        specs: ["HTML/CSS/JS"],
+        specs: ["HTML", "CSS", "JavaScript"],
         description: (
             <>
                 <div>
@@ -207,7 +207,7 @@ const projects = [
         mediaType: "image",
         name: "Project Silo",
         date: "September 2021",
-        specs: ["HTML/CSS/JS"],
+        specs: ["HTML", "CSS", "JavaScript"],
         description: (
             <>
                 <div>
@@ -246,7 +246,7 @@ const projects = [
         mediaType: "image",
         name: "Moniac Model",
         date: "August 2020",
-        specs: ["Java/AnyLogic"],
+        specs: ["Java", "AnyLogic"],
         description: (
             <>
                 <div>

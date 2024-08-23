@@ -1,20 +1,14 @@
 .project-description a {
-  text-decoration: underline;
   outline: none;
   color: #9966cc;
 }
 
 .project-description a:visited {
-  color: #6b1eb8;
+  color: #8125dd;
 }
 
-.project-description a:hover {
-  text-decoration: none;
-  color: #5f407f;
-}
-
-.project-description a:visited:hover {
-  color: #451377;
+.project-description a:hover, .project-description a:visited:hover {
+  color: #4d2279;
 }
 
 .project-card {

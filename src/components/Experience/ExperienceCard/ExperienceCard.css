@@ -67,22 +67,16 @@
 }
 
 .experience-description a {
-  text-decoration: underline;
   outline: none;
   color: #9966cc;
 }
 
 .experience-description a:visited {
-  color: #6b1eb8;
+  color: #8125dd;
 }
 
-.experience-description a:hover {
-  text-decoration: none;
-  color: #5f407f;
-}
-
-.experience-description a:visited:hover {
-  color: #451377;
+.experience-description a:hover, .experience-description a:visited:hover {
+  color: #4d2279;
 }
 
 .experience-map {

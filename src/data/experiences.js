@@ -62,7 +62,7 @@ const experiences = [
                 allowFullScreen=""
                 loading="lazy"></iframe>
         ),
-        position: "Resident Advisor",
+        position: "Student Researcher",
         dates: (
             <>
                 January 2024 -<br />

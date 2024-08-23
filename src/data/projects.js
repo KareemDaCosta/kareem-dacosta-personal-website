@@ -1,3 +1,4 @@
+import compendium from "../images/projects/compendium.png";
 import ezroute from "../images/projects/ezroute.png";
 import MSINT from "../images/projects/MSINT.png";
 import dungeonDelver from "../images/projects/dungeon-delver.png";
@@ -7,6 +8,41 @@ import projectSilo from "../images/projects/project-silo.png";
 import moniac from "../images/projects/moniac.png";
 
 const projects = [
+    {
+        media: <div className="video-wrap"><div className="video-container"><iframe src="https://www.youtube.com/embed/2xCqYuO2Ras?si=h2uRV3Lj3Fys21XD" title="YouTube video player" frameBorder="0" allow="web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div></div>,
+        mediaType: "video",
+        thumbnail: compendium,
+        name: "Compendium",
+        date: "April 2024",
+        specs: ["Flask", "Jinja"],
+        description: (
+            <>
+                <div>
+                    • Developed a website that lets users find and create Dungeons and Dragons creatures.
+                </div>
+                <div>
+                    • Users can create new creatures, edit existing ones, and search for creatures by name, challenge rating, type, and alignment.
+                </div>
+                <div>
+                    • Website state persists between browser sessions using local storage
+                </div>
+                <div>
+                    Feel free to check out the{" "}
+                    <a
+                        href="https://github.com/KareemDaCosta/compendium"
+                        target="_blank" rel="noreferrer">
+                        Github
+                    </a>{" "}
+                    and{" "}
+                    <a
+                        href="https://crude-zahara-creature-codex-dc2a72e7.koyeb.app/"
+                        target="_blank" rel="noreferrer">
+                        Website
+                    </a>
+                </div>
+            </>
+        ),
+    },
     {
         media: <div className="video-wrap"><div className="video-container"><iframe src="https://www.youtube.com/embed/EMfpoICKtKY?si=Lzz5O9_e0J3ZNNlB" title="YouTube video player" frameBorder="0" allow="web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div></div>,
         mediaType: "video",
@@ -32,7 +68,7 @@ const projects = [
                     • Created an elevator pitch, high fidelity prototype, video, and presentation
                 </div>
                 <div>
-                    Feel free view the{" "}
+                    Feel free to view the{" "}
                     <a
                         href="https://drive.google.com/file/d/1xsLXrtGiYGzQaYU3I610phDs8rT4rvdv/view?usp=sharing"
                         target="_blank" rel="noreferrer">
@@ -71,7 +107,7 @@ const projects = [
         mediaType: "image",
         name: "Dungeon Delver",
         date: "June 2022 - August 2022",
-        specs: ["React", "Node/Express", "Parse Database", "Recoil", "Sockets API"],
+        specs: ["React", "Node/Express", "Parse", "Recoil", "Sockets API"],
         description: (
             <>
                 <div>
@@ -233,12 +269,12 @@ const highlightProjects = [
         data: projects[0],
     },
     {
-        index: 1,
-        data: projects[1],
-    },
-    {
         index: 2,
         data: projects[2],
+    },
+    {
+        index: 3,
+        data: projects[3],
     },
 ]
 

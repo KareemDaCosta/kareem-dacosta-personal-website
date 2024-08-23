@@ -43,7 +43,7 @@ const experiences = [
                 the <span className="primary">iOS Engineer of the Month award</span> for my team
                 <br />• Earned a rating of <span className="primary">greatly exceeds expectations
                 </span> for my internship (Meta's top rating) and was recognized as the 
-                <span className="primary"> engineering highlight of the month</span> by an <span className="primary">Instagram director</span>
+                <span className="primary"> engineering highlight of the month by an Instagram director</span>
             </>
         ),
     },

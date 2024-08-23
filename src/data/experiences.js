@@ -48,7 +48,7 @@ const experiences = [
         ),
     },
     {
-        company: "Columbia University - DESDR",
+        company: "Columbia - DESDR",
         logo: Columbia,
         color: "#2259aa",
         location: "New York, NY",

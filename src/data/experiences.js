@@ -23,6 +23,79 @@ const experiences = [
         position: "Software Engineering Intern",
         dates: (
             <>
+                May 2024 -<br />
+                August 2024
+            </>
+        ),
+        description: (
+            <>
+                • Created a plugin <span className="primary">over 5 weeks ahead of 
+                schedule</span> that tracks network requests in a waterfall graph 
+                during a live mobile session
+                <br />• Added plugin support for <span className="primary">Instagram iOS, 
+                Instagram Android, and Threads iOS </span> 
+                using Objective-C, Kotlin, and Java
+                <br />• Collaborated with <span className="primary">9 engineers 
+                across 3 teams</span> to build feature requests 
+                and wrote 2 wiki articles (linked <a href="https://docs.google.com/document/d/1iOScJDOX06jvzZOLmgEoch4wC8X1X3rdh91PXt_HUgA/edit?usp=sharing" target="_blank" rel="noreferrer">here</a> and <a href="https://docs.google.com/document/d/1Y5hXFGoKnU_Mu4ywB3lJ2zSkBW_6wBQqQrTVhQ7YOtg/edit?usp=sharing" target="_blank" rel="noreferrer">here</a>) 
+                to document my work
+                <br />• Conducted 2 presentations, one at my team's All Hands meeting, and won 
+                the <span className="primary">iOS Engineer of the Month award</span> for my team
+                <br />• Earned a rating of <span className="primary">greatly exceeds expectations
+                </span> for my internship (Meta's top rating) and was recognized as the 
+                <span className="primary"> engineering highlight of the month</span> by an <span className="primary">Instagram director</span>
+            </>
+        ),
+    },
+    {
+        company: "DESDR Research Lab",
+        logo: Columbia,
+        color: "#2259aa",
+        location: "New York, NY",
+        map: (
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858170.131883427!2d-75.38512592065173!3d40.10186695191752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1662150859167!5m2!1sen!2sus"
+                width="200"
+                height="200"
+                title="Columbia University Map"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"></iframe>
+        ),
+        position: "Resident Advisor",
+        dates: (
+            <>
+                January 2024 -<br />
+                May 2024
+            </>
+        ),
+        description: (
+            <>
+                • Worked in <a href="https://columbia-desdr.github.io/" target="_blank" rel="noreferrer">DESDR</a> to 
+                bring website support to Nigeria by adjusting charts, area of measurement, and data used
+                <br />• Created pipeline scripts to transform data from the type received by a 
+                remote server to the type used by the website database
+            </>
+        ),
+    },
+    {
+        company: "Meta",
+        logo: Meta,
+        color: "#6eb9ff",
+        location: "New York, NY",
+        map: (
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1858170.131883427!2d-75.38512592065173!3d40.10186695191752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1662150859167!5m2!1sen!2sus"
+                width="200"
+                height="200"
+                title="Meta Map"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"></iframe>
+        ),
+        position: "Software Engineering Intern",
+        dates: (
+            <>
                 May 2023 -<br />
                 August 2023
             </>

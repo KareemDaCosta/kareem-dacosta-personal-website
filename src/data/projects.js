@@ -1,3 +1,4 @@
+import supercold from "../images/projects/supercold.png";
 import compendium from "../images/projects/compendium.png";
 import ezroute from "../images/projects/ezroute.png";
 import MSINT from "../images/projects/MSINT.png";
@@ -8,6 +9,41 @@ import projectSilo from "../images/projects/project-silo.png";
 import moniac from "../images/projects/moniac.png";
 
 const projects = [
+    {
+        media: <div className="video-wrap"><div className="video-container"><iframe src="https://www.youtube.com/embed/WEBndFqB_kw?si=fiGxUq2s1Jtk6gSj" title="YouTube video player" frameBorder="0" allow="web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div></div>,
+        mediaType: "video",
+        thumbnail: supercold,
+        name: "Super Cold",
+        date: "December 2024",
+        specs: ["Processing Java", "Arduino"],
+        description: (
+            <>
+                <div>
+                    • Developed a 1v1 laser tag video game using Processing Java with an LilyGo TTGO ESP32 board.
+                </div>
+                <div>
+                    • Game features include <span className="primary">3D graphics using raycasting</span>, randomized map generation using a <span className="primary">modified Prim's Algorithm</span>, 360 degree character sprites computed using vector angles with walking, firing, and dying animations, and much more!
+                </div>
+                <div>
+                    • Device communication performed through a <span className="primary">broadcast wireless connection</span> between any two ESP32 boards.
+                </div>
+                <div>
+                    • The entire development process is detailed in this{" "}
+                    <a
+                        href="https://medium.com/@kd2688/super-cold-25c6b1b90f1c"
+                        target="_blank" rel="noreferrer">
+                        blog post
+                    </a>.{" "}
+                    If you want to see the source code, the{" "}
+                    <a
+                        href="https://github.com/KareemDaCosta/compendium"
+                        target="_blank" rel="noreferrer">
+                        Github
+                    </a>{" "} is linked.
+                </div>
+            </>
+        ),
+    },
     {
         media: <div className="video-wrap"><div className="video-container"><iframe src="https://www.youtube.com/embed/2xCqYuO2Ras?si=h2uRV3Lj3Fys21XD" title="YouTube video player" frameBorder="0" allow="web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div></div>,
         mediaType: "video",
@@ -27,7 +63,7 @@ const projects = [
                     • Website state persists between browser sessions using local storage
                 </div>
                 <div>
-                    Feel free to check out the{" "}
+                    • Feel free to check out the{" "}
                     <a
                         href="https://github.com/KareemDaCosta/compendium"
                         target="_blank" rel="noreferrer">
@@ -68,7 +104,7 @@ const projects = [
                     • Created an elevator pitch, high fidelity prototype, video, and presentation
                 </div>
                 <div>
-                    Feel free to view the{" "}
+                    • Feel free to view the{" "}
                     <a
                         href="https://drive.google.com/file/d/1xsLXrtGiYGzQaYU3I610phDs8rT4rvdv/view?usp=sharing"
                         target="_blank" rel="noreferrer">
@@ -123,7 +159,7 @@ const projects = [
                     state management.
                 </div>
                 <div>
-                    Make sure to check out the{" "}
+                    • Feel free to check out the{" "}
                     <a
                         href="https://github.com/Dungeon-Delver"
                         target="_blank" rel="noreferrer">
@@ -269,12 +305,12 @@ const highlightProjects = [
         data: projects[0],
     },
     {
-        index: 2,
-        data: projects[2],
+        index: 1,
+        data: projects[1],
     },
     {
-        index: 3,
-        data: projects[3],
+        index: 4,
+        data: projects[4],
     },
 ]
 

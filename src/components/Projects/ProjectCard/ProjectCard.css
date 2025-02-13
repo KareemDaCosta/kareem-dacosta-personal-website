@@ -16,7 +16,7 @@
   padding: 20px;
   display: grid;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  grid-template-columns: 3fr 2fr 120px;
+  grid-template-columns: 3fr 2fr 130px;
   grid-template-rows: 50px 55px 1fr;
   grid-gap: 10px;
   width: 800px;

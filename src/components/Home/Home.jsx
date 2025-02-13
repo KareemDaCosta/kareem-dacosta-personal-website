@@ -31,9 +31,9 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="profile-card-text-blurb">
-							A third-year student at Columbia University's School
-							of Engineering and Applied Sciences majoring in
-							computer science.
+							A computer science graduate from Columbia
+							University's School of Engineering and Applied
+							Sciences.
 						</div>
 					</div>
 				</div>
